@@ -1,0 +1,183 @@
+{
+    "riskThresholds": {
+        "description": "Apply to all domains consistently across all grades and assessments",
+        "levels": [
+            {
+                "scoreRange": [
+                    0,
+                    1.9
+                ],
+                "riskLevel": "low"
+            },
+            {
+                "scoreRange": [
+                    2,
+                    2.9
+                ],
+                "riskLevel": "medium"
+            },
+            {
+                "scoreRange": [
+                    3,
+                    4
+                ],
+                "riskLevel": "high"
+            }
+        ]
+    },
+    "crisisProtocols": [
+        {
+            "level": 1,
+            "name": "IMMEDIATE DANGER",
+            "triggers": [
+                "Self-harm thoughts (Often/Always responses)",
+                "Suicidal ideation (Yes responses)",
+                "Immediate safety threats"
+            ],
+            "actions": [
+                "Counselor speaks with student within 30 minutes",
+                "Emergency family contact - request immediate family presence",
+                "Professional referral - psychiatrist/psychologist within 24 hours",
+                "Safety planning - comprehensive plan with 24/7 support contacts",
+                "Academic emergency - temporary suspension if needed for safety",
+                "Intensive monitoring - hourly check-ins, family supervision"
+            ]
+        },
+        {
+            "level": 2,
+            "name": "HIGH RISK",
+            "triggers": [
+                "Multiple critical flags",
+                "Escalating patterns of distress",
+                "Family breakdown"
+            ],
+            "actions": [
+                "Crisis team activation - Principal, counselor, family, mental health professional within 12 hours",
+                "Immediate intervention - Professional counseling session within 24 hours",
+                "Family crisis intervention - Intensive family therapy and support",
+                "Academic accommodations - Modified schedule if needed",
+                "Medical evaluation - Physical health assessment due to stress symptoms",
+                "Professional support - Daily counselor contact, weekly professional sessions"
+            ]
+        },
+        {
+            "level": 3,
+            "name": "MODERATE RISK",
+            "triggers": [
+                "High scores across multiple domains",
+                "Concerning behavioral changes"
+            ],
+            "actions": [
+                "Counselor intervention - Mandatory meeting within 48 hours",
+                "Family conference - Required family meeting to discuss support strategies",
+                "Stress management program - Intensive coping skills training",
+                "Peer support - Connection with support groups or peer mentoring",
+                "Academic support - Tutoring, study skills support, reduced pressure",
+                "Regular monitoring - Twice weekly check-ins, progress tracking"
+            ]
+        },
+        {
+            "level": 4,
+            "name": "MILD CONCERN",
+            "triggers": [
+                "Isolated high scores",
+                "Mild stress indicators"
+            ],
+            "actions": [
+                "Resource provision - Self-help materials, stress management apps, online resources",
+                "Peer connection - Encourage participation in supportive peer groups",
+                "Parent education - Information about supporting teenagers",
+                "Academic support - Study skills workshops, time management training",
+                "Monitoring - Weekly check-ins for one month"
+            ]
+        }
+    ],
+    "autoRedTriggers": {
+        "description": "Automatic critical flags that override standard scoring",
+        "triggers": [
+            {
+                "type": "Self-Harm Question",
+                "condition": "Often or Always responses, or any Yes to ideation questions"
+            },
+            {
+                "type": "Home Safety",
+                "condition": "No to feeling safe at home"
+            },
+            {
+                "type": "Text Analysis Keywords",
+                "keywords": [
+                    "hurt",
+                    "kill",
+                    "die",
+                    "end it",
+                    "useless",
+                    "better off dead",
+                    "suicide",
+                    "can't do this"
+                ]
+            },
+            {
+                "type": "Dissociation Indicators",
+                "condition": "Complete emotional shutdown responses"
+            }
+        ]
+    },
+    "annualOutcomeCategories": {
+        "description": "Overall category based on average score across all assessments in academic year",
+        "categories": [
+            {
+                "scoreRange": [
+                    1,
+                    1.9
+                ],
+                "category": "Thriving",
+                "studentMessage": "You're a Mental Health Champion!",
+                "recommendedActions": [
+                    "Peer mentorship potential",
+                    "Leadership opportunities",
+                    "Recognition programs"
+                ]
+            },
+            {
+                "scoreRange": [
+                    2,
+                    2.9
+                ],
+                "category": "Balanced",
+                "studentMessage": "You had a solid year with resilience!",
+                "recommendedActions": [
+                    "Standard monitoring",
+                    "Skill-building activities",
+                    "Optional counseling"
+                ]
+            },
+            {
+                "scoreRange": [
+                    3,
+                    3.9
+                ],
+                "category": "Vulnerable",
+                "studentMessage": "This was tough but you made it!",
+                "recommendedActions": [
+                    "Mandatory counseling check-in",
+                    "Family involvement",
+                    "Flagged for early check-in next year"
+                ]
+            },
+            {
+                "scoreRange": [
+                    4,
+                    5
+                ],
+                "category": "Critical",
+                "studentMessage": "We're here to support you.",
+                "recommendedActions": [
+                    "Intensive counseling",
+                    "Family therapy",
+                    "Possible clinical referral",
+                    "Continued intensive monitoring next year"
+                ]
+            }
+        ]
+    }
+}

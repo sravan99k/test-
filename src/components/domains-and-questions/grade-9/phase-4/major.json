@@ -1,0 +1,203 @@
+{
+    "metadata": {
+        "grade": 9,
+        "phase": 4,
+        "assessmentCode": "M4",
+        "assessmentName": "Exit Interview and Board Readiness",
+        "purpose": "Comprehensive assessment of readiness for Grade 10 and board exam preparation",
+        "timing": "March 25",
+        "estimatedTimeMinutes": 10,
+        "totalQuestions": 7,
+        "domainsCovered": [
+            "Strengths",
+            "Overall Experience",
+            "Academic Preparedness",
+            "Relationships",
+            "Hope",
+            "Bullying Impact",
+            "Goals"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G9_P4_M4_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P4_M4_Q3",
+            "questionNumber": 3,
+            "domain": "General",
+            "subdomain": "Experience",
+            "question": "How would you describe your experience of this Board year so far?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "quality",
+                "scale": [
+                    "Very difficult",
+                    "Difficult",
+                    "Neutral",
+                    "Positive",
+                    "Very positive"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P4_M4_Q4",
+            "questionNumber": 4,
+            "domain": "Academic",
+            "subdomain": "Preparedness",
+            "question": "How prepared do you feel for Boards at this stage?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Prepared",
+                    "Very prepared"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P4_M4_Q5",
+            "questionNumber": 5,
+            "domain": "Social",
+            "subdomain": "Peer Support",
+            "question": "How supported do you feel by your close friends in this year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Quite a bit",
+                    "Very much"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P4_M4_Q6",
+            "questionNumber": 6,
+            "domain": "Support",
+            "subdomain": "Teacher Support",
+            "question": "How supported do you feel by your teachers for Boards?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Quite a bit",
+                    "Very much"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P4_M4_Q7",
+            "questionNumber": 7,
+            "domain": "Hope",
+            "question": "How hopeful do you feel about doing reasonably well in Boards?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "hopefulness",
+                "scale": [
+                    "Not at all hopeful",
+                    "A little hopeful",
+                    "Somewhat hopeful",
+                    "Hopeful",
+                    "Very hopeful"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P4_M4_Q8",
+            "questionNumber": 8,
+            "domain": "Bullying",
+            "subdomain": "Yearly Impact",
+            "question": "Has bullying, teasing, or shaming about marks affected you this year?",
+            "responseType": "yesno"
+        }
+    ]
+}

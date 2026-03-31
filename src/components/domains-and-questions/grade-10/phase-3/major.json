@@ -1,0 +1,378 @@
+{
+    "metadata": {
+        "grade": 10,
+        "phase": 3,
+        "assessmentCode": "M3",
+        "assessmentName": "Crisis Prevention and Final Preparation",
+        "purpose": "Prevent breakdown during final Board exam preparation and identify students needing immediate intervention",
+        "timing": "January 10",
+        "estimatedTimeMinutes": 9,
+        "totalQuestions": 13,
+        "domainsCovered": [
+            "Academic",
+            "Cognitive Function",
+            "Coping",
+            "Emotional",
+            "Family",
+            "Logistics",
+            "Motivation",
+            "Open",
+            "Resilience",
+            "Safety",
+            "Sleep",
+            "Social",
+            "Somatic"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G10_P3_M3_Q1",
+            "questionNumber": 1,
+            "domain": "Cognitive Function",
+            "subdomain": "Executive Function",
+            "question": "I feel mentally clear and able to recall information during practice tests and study sessions.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q2",
+            "questionNumber": 2,
+            "domain": "Motivation",
+            "subdomain": "School Engagement",
+            "question": "I still feel motivated to study and prepared to give my best effort in Board exams.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q3",
+            "questionNumber": 3,
+            "domain": "Safety",
+            "subdomain": "Suicide Risk",
+            "question": "I have had thoughts of harming myself or escaping everything due to exam pressure.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "IMMEDIATE intervention within 1 hour",
+                "protocol": "CRITICAL Crisis Protocol"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q4",
+            "questionNumber": 4,
+            "domain": "Family",
+            "subdomain": "Atmosphere",
+            "question": "The atmosphere at home is supportive and not adding to my exam stress.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q5",
+            "questionNumber": 5,
+            "domain": "Sleep",
+            "subdomain": "Sleep Quality",
+            "question": "I am getting adequate sleep (7+ hours) and my body is recovering from study stress.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q6",
+            "questionNumber": 6,
+            "domain": "Somatic",
+            "subdomain": "Somatic Stress",
+            "question": "I am not experiencing severe physical symptoms (nausea, headaches, weight loss) due to stress.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q7",
+            "questionNumber": 7,
+            "domain": "Emotional",
+            "subdomain": "Confidence",
+            "question": "I believe in my ability to perform well and pass the Board examinations.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q8",
+            "questionNumber": 8,
+            "domain": "Social",
+            "subdomain": "Connection",
+            "question": "I maintain healthy connections with friends and family despite exam pressure.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q9",
+            "questionNumber": 9,
+            "domain": "Academic",
+            "subdomain": "Strategy",
+            "question": "I have a clear strategy for managing exam day stress and performing my best.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q10",
+            "questionNumber": 10,
+            "domain": "Resilience",
+            "subdomain": "Pre-Board Impact",
+            "question": "I have recovered from any setbacks or low marks in my Pre-Board exams.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q11",
+            "questionNumber": 11,
+            "domain": "Logistics",
+            "subdomain": "Readiness",
+            "question": "I have all my exam logistics sorted (hall ticket, center location, stationery).",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "options",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q12",
+            "questionNumber": 12,
+            "domain": "Academic",
+            "subdomain": "Revision Plan",
+            "question": "I have a realistic plan for my final revision days.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P3_M3_Q13",
+            "questionNumber": 13,
+            "domain": "Coping",
+            "subdomain": "Panic Plan",
+            "question": "I know exactly what to do if I feel a panic attack coming on during the exam.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "options",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            }
+        }
+    ],
+    "crisisProtocols": {
+        "level1": "If Q3 (Safety) = Yes: IMMEDIATE intervention within 1 hour",
+        "level2": "If Multiple high scores: Enhanced support team activation within 24 hours",
+        "healthCheck": "If Q1 (Cognitive) + Q5 (Sleep) = Both poor: Medical evaluation recommended"
+    }
+}

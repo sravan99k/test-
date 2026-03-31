@@ -1,0 +1,695 @@
+{
+    "metadata": {
+        "grade": 6,
+        "phase": 2,
+        "assessmentCode": "M2",
+        "assessmentName": "Pre-Exam Stress",
+        "purpose": "Early exam-stress and safety check, assess impact of first Quarterly Exams with School Environment Assessment",
+        "timing": "September 10",
+        "estimatedTimeMinutes": 10,
+        "totalQuestions": 23,
+        "domainsCovered": [
+            "Academic",
+            "Academic Support",
+            "Bullying",
+            "Emotional",
+            "Exam Stress",
+            "Family",
+            "Safety",
+            "School Environment",
+            "Self",
+            "Sleep",
+            "Social",
+            "Strengths"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G6_P2_M2_Q1",
+            "questionNumber": 1,
+            "section": "Strengths Block",
+            "domain": "Strengths",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q3",
+            "questionNumber": 3,
+            "section": "Academic and Exam Domain",
+            "domain": "Exam Stress",
+            "subdomain": "Exam Anxiety",
+            "question": "How do you feel about your upcoming tests?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "confidence_worry",
+                "scale": [
+                    "Very Confident",
+                    "Confident",
+                    "Neutral",
+                    "Worried",
+                    "Very Worried"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=4",
+                "orange": "==4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q4",
+            "questionNumber": 4,
+            "section": "Academic and Exam Domain",
+            "domain": "Academic Support",
+            "question": "How much are your teachers helping you to prepare for tests?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "amount",
+                "scale": [
+                    "Very much",
+                    "Quite a bit",
+                    "Somewhat",
+                    "A little",
+                    "Not at all"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": "<=2",
+                "note": "Low support may compound exam stress"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q5",
+            "questionNumber": 5,
+            "section": "Social and Peer",
+            "domain": "Social",
+            "subdomain": "Peer Connection",
+            "question": "How have your friendships been going recently?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "quality",
+                "scale": [
+                    "Very Well",
+                    "Well",
+                    "Okay",
+                    "Not well",
+                    "Not well at all"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=4",
+                "note": "Exam stress can strain friendships"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q6",
+            "questionNumber": 6,
+            "section": "Sleep and Energy",
+            "domain": "Sleep",
+            "question": "How well have you been sleeping in the last 2 weeks?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "quality",
+                "scale": [
+                    "Very well",
+                    "Well",
+                    "Okay",
+                    "Not well",
+                    "Not well at all"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=4",
+                "orange": "==4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q7",
+            "questionNumber": 7,
+            "section": "Emotional Stress",
+            "domain": "Emotional",
+            "subdomain": "Anxiety",
+            "question": "Many students feel nervous or tense before tests. In the last 2 weeks, how often have you felt this way?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q8",
+            "questionNumber": 8,
+            "section": "Bullying",
+            "domain": "Bullying",
+            "question": "Has anyone bullied you or made you feel unsafe at school recently (for example: calling bad names, making fun, hitting, or excluding you)?",
+            "responseType": "yesno_detailed",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Yes"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q9",
+            "questionNumber": 9,
+            "section": "Family Support",
+            "domain": "Family",
+            "subdomain": "Family Support",
+            "question": "How often do your parents or family ask you how you are doing at school?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4",
+                "note": "Low family engagement can worsen exam stress"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q10",
+            "questionNumber": 10,
+            "section": "Self-Harm Safety Block",
+            "domain": "Emotional",
+            "subdomain": "Overwhelm",
+            "question": "Sometimes when students are very worried, they may feel like they cannot handle everything. In the last 2 weeks, how often have you felt like everything is too much?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q11",
+            "questionNumber": 11,
+            "section": "Self-Harm Safety Block",
+            "domain": "Safety",
+            "subdomain": "Self-Harm Ideation",
+            "question": "When you feel this way, have you ever had thoughts of hurting yourself?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Prefer not to say",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q12",
+            "questionNumber": 12,
+            "section": "Academic and Exam Domain",
+            "domain": "Exam Stress",
+            "subdomain": "Parental Pressure",
+            "question": "I am scared my parents will be angry if I don't get good marks.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q13",
+            "questionNumber": 13,
+            "section": "Academic and Exam Domain",
+            "domain": "Exam Stress",
+            "subdomain": "Test Anxiety",
+            "question": "I forget everything I studied when I see the question paper.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q14",
+            "questionNumber": 14,
+            "section": "Academic and Exam Domain",
+            "domain": "Exam Stress",
+            "subdomain": "Study Balance",
+            "question": "I stay up very late at night to study.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q15",
+            "questionNumber": 15,
+            "section": "Academic and Exam Domain",
+            "domain": "Academic",
+            "subdomain": "Comparison",
+            "question": "I compare my marks with my friends' marks.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q16",
+            "questionNumber": 16,
+            "section": "Social and Peer",
+            "domain": "Social",
+            "subdomain": "Conditional Friendship",
+            "question": "My friends only like me if I get good grades.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q17",
+            "questionNumber": 17,
+            "section": "Academic and Exam Domain",
+            "domain": "Self",
+            "subdomain": "Academic Self-Worth",
+            "question": "I feel stupid compared to other students.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q18",
+            "questionNumber": 18,
+            "section": "Academic and Exam Domain",
+            "domain": "Academic",
+            "subdomain": "Resilience",
+            "question": "I feel proud when I solve a difficult problem.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q19",
+            "questionNumber": 19,
+            "section": "Emotional Stress",
+            "domain": "Emotional",
+            "subdomain": "Frustration Tolerance",
+            "question": "I cry or feel like crying when I cannot solve a question.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q20",
+            "questionNumber": 20,
+            "section": "Emotional Stress",
+            "domain": "Emotional",
+            "subdomain": "Somatic",
+            "question": "I get headaches or stomach aches when I think about exams.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q21",
+            "questionNumber": 21,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Homework",
+            "question": "Homework feels manageable and not overwhelming.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q22",
+            "questionNumber": 22,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Teaching Fear",
+            "question": "Teachers explain things without scaring us.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q23",
+            "questionNumber": 23,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Mistakes",
+            "question": "Mistakes are allowed and treated as learning opportunities.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P2_M2_Q24",
+            "questionNumber": 24,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Pace",
+            "question": "The pace of learning feels just right for me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        }
+    ]
+}

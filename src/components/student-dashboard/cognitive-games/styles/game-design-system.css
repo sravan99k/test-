@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  /* Layout */
+  .game-screen {
+    @apply min-h-screen bg-slate-50 flex flex-col font-sans text-slate-900 pb-12;
+  }
+
+  .game-container {
+    @apply w-full max-w-5xl mx-auto px-4 sm:px-6;
+  }
+
+  /* Cards */
+  .game-card {
+    @apply bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden transition-all duration-300;
+  }
+
+  .game-card-header {
+    @apply p-6 border-b border-slate-100 flex items-center justify-between bg-slate-50/50;
+  }
+
+  /* Level List */
+  .level-list {
+    @apply grid gap-3 p-6 grid-cols-1;
+  }
+
+  .level-item {
+    @apply relative flex items-center gap-4 p-4 rounded-xl border border-slate-200 bg-white transition-all duration-200 cursor-pointer hover:border-blue-300 hover:shadow-md hover:translate-x-1 group;
+  }
+
+  .level-item.level-completed {
+    @apply bg-green-50/50 border-green-200;
+  }
+
+  .level-item.level-locked {
+    @apply bg-slate-50 border-slate-100 opacity-60 cursor-not-allowed hover:shadow-none hover:border-slate-100 hover:translate-x-0;
+  }
+
+  .level-icon {
+    @apply flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center transition-colors shadow-sm;
+  }
+
+  .level-completed .level-icon {
+    @apply bg-green-100 text-green-600;
+  }
+
+  .level-locked .level-icon {
+    @apply bg-slate-200 text-slate-400;
+  }
+
+  .level-item:not(.level-completed):not(.level-locked) .level-icon {
+    @apply bg-blue-50 text-blue-600 group-hover:bg-blue-100;
+  }
+
+  .level-badge {
+    @apply px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full border ml-auto;
+  }
+
+  /* Instructions */
+  .instruction-title {
+    @apply flex items-center gap-2 font-bold text-slate-900 mb-6;
+  }
+
+  .instruction-steps {
+    @apply space-y-4;
+  }
+
+  .instruction-step {
+    @apply flex items-center gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 transition-colors hover:bg-white hover:shadow-sm;
+  }
+
+  .step-number {
+    @apply flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm shadow-sm ring-4 ring-blue-50;
+  }
+
+  /* Tips */
+  .tip-callout {
+    @apply mt-6 bg-amber-50 rounded-xl p-5 border border-amber-100 shadow-sm;
+  }
+
+  .tip-callout-title {
+    @apply flex items-center gap-2 font-bold text-amber-800 mb-2 text-xs uppercase tracking-wide;
+  }
+
+  .tip-callout-text {
+    @apply text-sm text-amber-900 leading-relaxed font-medium;
+  }
+
+  /* Progress */
+  .progress-bar {
+    @apply h-2 bg-slate-100 rounded-full overflow-hidden w-full;
+  }
+
+  .progress-bar-fill {
+    @apply h-full bg-blue-600 rounded-full transition-all duration-500 ease-out shadow-[0_0_10px_rgba(37, 99, 235, 0.3)];
+  }
+}

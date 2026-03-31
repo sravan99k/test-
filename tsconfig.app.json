@@ -1,0 +1,93 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    /* Linting */
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/ui/*": [
+        "./src/components/ui/*"
+      ],
+      "@/components/management/*": [
+        "./src/components/school-dashboard/management/*"
+      ],
+      "@/components/chat/*": [
+        "./src/components/student-dashboard/chat/*"
+      ],
+      "@/components/personalized/*": [
+        "./src/components/student-dashboard/personalized/*"
+      ],
+      "@/components/games/*": [
+        "./src/components/student-dashboard/cognitive-games/*"
+      ],
+      "@/components/mood/*": [
+        "./src/components/student-dashboard/mood/*"
+      ],
+      "@/components/journal/*": [
+        "./src/components/student-dashboard/journal/*"
+      ],
+      "@/components/goals/*": [
+        "./src/components/student-dashboard/goals/*"
+      ],
+      "@/components/gamification/*": [
+        "./src/components/student-dashboard/cognitive-games/gamification-badges/*"
+      ],
+      "@/components/progress/*": [
+        "./src/components/school-dashboard/progress/*"
+      ],
+      "@/components/shared/*": [
+        "./src/components/shared/*"
+      ],
+      "@/components/Footer": [
+        "./src/components/shared/Footer"
+      ],
+      "@/services/schoolDataService": [
+        "./src/services/schoolDataService"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "vite/client",
+      "node"
+    ],
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/vite-env.d.ts"
+  ],
+  "exclude": [
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx",
+    "src/test",
+    "src/setupTests.ts"
+  ]
+}

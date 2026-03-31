@@ -1,0 +1,344 @@
+{
+    "metadata": {
+        "grade": 8,
+        "phase": 4,
+        "assessmentCode": "M4",
+        "assessmentName": "Exit Interview",
+        "purpose": "Reflect on first half of the year, growth, support quality, and future orientation",
+        "timing": "March 25",
+        "estimatedTimeMinutes": 8,
+        "totalQuestions": 12,
+        "domainsCovered": [
+            "Academic",
+            "Bullying",
+            "Coping",
+            "Future",
+            "General",
+            "Gratitude",
+            "Growth",
+            "Hope",
+            "Reflection",
+            "Resilience",
+            "Social",
+            "Strengths",
+            "Support",
+            "Tech"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G8_P4_M4_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q3",
+            "questionNumber": 3,
+            "domain": "General",
+            "subdomain": "Year Experience",
+            "question": "How would you describe your experience of this school year so far?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "quality",
+                "scale": [
+                    "Very difficult",
+                    "Difficult",
+                    "Neutral",
+                    "Positive",
+                    "Very positive"
+                ],
+                "values": [
+                    5,
+                    4,
+                    3,
+                    2,
+                    1
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q4",
+            "questionNumber": 4,
+            "domain": "Academic",
+            "subdomain": "Satisfaction",
+            "question": "How satisfied are you with your academic progress?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "satisfaction",
+                "scale": [
+                    "Not at all satisfied",
+                    "A little satisfied",
+                    "Somewhat satisfied",
+                    "Satisfied",
+                    "Very satisfied"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q5",
+            "questionNumber": 5,
+            "domain": "Social",
+            "subdomain": "Friendships",
+            "question": "How would you rate your friendships this year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "quality_rating",
+                "scale": [
+                    "Very poor",
+                    "Poor",
+                    "Okay",
+                    "Good",
+                    "Very good"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q6",
+            "questionNumber": 6,
+            "domain": "Hope",
+            "subdomain": "Hope",
+            "question": "How hopeful do you feel about the rest of this year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "hopefulness",
+                "scale": [
+                    "Not at all hopeful",
+                    "A little hopeful",
+                    "Somewhat hopeful",
+                    "Hopeful",
+                    "Very hopeful"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q7",
+            "questionNumber": 7,
+            "domain": "Growth",
+            "subdomain": "Self-Regulation",
+            "question": "How much do you feel you have grown as a person this year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "intensity",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Quite a bit",
+                    "Very much"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q8",
+            "questionNumber": 8,
+            "domain": "Support",
+            "subdomain": "Teacher Support",
+            "question": "How supported did you feel by your teachers?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "support_level",
+                "scale": [
+                    "Not at all supported",
+                    "A little supported",
+                    "Somewhat supported",
+                    "Well supported",
+                    "Very well supported"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q9",
+            "questionNumber": 9,
+            "domain": "Bullying",
+            "subdomain": "Yearly Impact",
+            "question": "Has bullying or teasing affected you a lot this year?",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q10",
+            "questionNumber": 10,
+            "domain": "Social",
+            "subdomain": "Conflict Resolution",
+            "question": "I was able to fix problems with friends when they happened.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q11",
+            "questionNumber": 11,
+            "domain": "Resilience",
+            "subdomain": "Self-Advocacy",
+            "question": "I asked for help when I needed it this year.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q12",
+            "questionNumber": 12,
+            "domain": "Coping",
+            "subdomain": "Skill Use",
+            "question": "I used healthy ways to handle stress (like breathing, talking, hobbies).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P4_M4_Q13",
+            "questionNumber": 13,
+            "domain": "Tech",
+            "subdomain": "Balance",
+            "question": "I felt good about how much time I spent on my phone/games vs. other things.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "description": "Longitudinal anchor items that appear in every Major assessment with identical wording (DO NOT CHANGE WORDING 2026-2029)",
+    "anchors": [
+        {
+            "domain": "Strength",
+            "question": "I have at least one strength or talent I feel good about.",
+            "appearsIn": [
+                "M1",
+                "M2",
+                "M3",
+                "M4"
+            ],
+            "grades": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "rationale": "Core self-worth measure; tracks resilience",
+            "responseType": "likert_frequency"
+        },
+        {
+            "domain": "Mood (Grades 6-7 only)",
+            "question": "In the last 2 weeks, how often have you felt happy coming to school?",
+            "appearsIn": [
+                "M1",
+                "M2",
+                "M3",
+                "M4"
+            ],
+            "grades": [
+                6,
+                7
+            ],
+            "rationale": "Positive emotional baseline for younger students",
+            "responseType": "likert_frequency"
+        },
+        {
+            "domain": "Mood (Grades 8-10 only)",
+            "question": "In the last 2 weeks, how often have you felt sad, empty, or hopeless without a clear reason?",
+            "appearsIn": [
+                "M1",
+                "M2",
+                "M3",
+                "M4"
+            ],
+            "grades": [
+                8,
+                9,
+                10
+            ],
+            "rationale": "Depression screening anchor for older students",
+            "responseType": "likert_frequency"
+        },
+        {
+            "domain": "Academic Confidence",
+            "question": "I feel confident I can handle my schoolwork this year.",
+            "appearsIn": [
+                "M1",
+                "M4"
+            ],
+            "grades": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "rationale": "Tracks academic self-efficacy growth",
+            "responseType": "likert_frequency"
+        },
+        {
+            "domain": "Peer Support",
+            "question": "I have at least one close friend I can talk to.",
+            "appearsIn": [
+                "M1",
+                "M3",
+                "M4"
+            ],
+            "grades": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "rationale": "Social connection stability measure",
+            "responseType": "likert_frequency"
+        },
+        {
+            "domain": "Adult Support",
+            "question": "There is at least one adult at school I feel comfortable talking to if I have a problem.",
+            "appearsIn": [
+                "M1",
+                "M2",
+                "M3",
+                "M4"
+            ],
+            "grades": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "rationale": "Help-seeking access measure",
+            "responseType": "yes_no_notsure"
+        },
+        {
+            "domain": "Hope (Grades 6-7 only)",
+            "question": "I feel hopeful about the rest of this school year.",
+            "appearsIn": [
+                "M4"
+            ],
+            "grades": [
+                6,
+                7
+            ],
+            "rationale": "Year-end optimism measure",
+            "responseType": "likert_frequency"
+        },
+        {
+            "domain": "Hope (Grades 8-10 only)",
+            "question": "I feel hopeful about my future.",
+            "appearsIn": [
+                "M1",
+                "M4"
+            ],
+            "grades": [
+                8,
+                9,
+                10
+            ],
+            "rationale": "Future orientation measure",
+            "responseType": "likert_frequency"
+        }
+    ],
+    "usage": {
+        "purpose": "Enable year-over-year comparison (June M1 → March M4) and multi-year trends (Grade 6 M4 → Grade 7 M4)",
+        "rules": [
+            "At least 4-5 anchors must appear in each Major assessment",
+            "Wording must remain IDENTICAL across all uses",
+            "Any change invalidates longitudinal tracking",
+            "Anchor scores used to compute growth metrics"
+        ]
+    }
+}

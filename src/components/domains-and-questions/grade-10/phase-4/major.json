@@ -1,0 +1,518 @@
+{
+    "metadata": {
+        "grade": 10,
+        "phase": 4,
+        "assessmentCode": "M4",
+        "assessmentName": "Post-Exam Recovery Assessment",
+        "purpose": "Post-exam recovery, result anxiety management, and transition preparation",
+        "timing": "March 25",
+        "estimatedTimeMinutes": 10,
+        "totalQuestions": 17,
+        "domainsCovered": [
+            "Academic",
+            "Coping",
+            "Emotional",
+            "Family",
+            "Identity",
+            "Resilience",
+            "Safety",
+            "Somatic",
+            "Strengths",
+            "Support"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G10_P4_M4_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q3",
+            "questionNumber": 3,
+            "domain": "Academic",
+            "subdomain": "Board Stress",
+            "question": "Right now, how stressed do you feel about your Board exams?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Very",
+                    "Extremely stressed"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q4",
+            "questionNumber": 4,
+            "domain": "Somatic",
+            "subdomain": "Somatic Stress",
+            "question": "How has your physical health been (headaches, body pain, stomach issues) in the last month?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "impact",
+                "scale": [
+                    "Not at all bothered",
+                    "A little",
+                    "Somewhat",
+                    "Badly",
+                    "Very badly bothered"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q5",
+            "questionNumber": 5,
+            "domain": "Academic",
+            "subdomain": "Confidence",
+            "question": "How confident do you feel about at least passing all subjects?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Confident",
+                    "Very confident"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q6",
+            "questionNumber": 6,
+            "domain": "Coping",
+            "subdomain": "Self-Regulation",
+            "question": "How good are your ways of coping with stress (breaks, talking, planning)?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "quality",
+                "scale": [
+                    "Not at all good",
+                    "Poor",
+                    "Okay",
+                    "Good",
+                    "Very good"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q7",
+            "questionNumber": 7,
+            "domain": "Family",
+            "subdomain": "Support",
+            "question": "How supportive are your parents/guardians right now?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Quite a bit",
+                    "Very supportive"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q8",
+            "questionNumber": 8,
+            "domain": "Support",
+            "subdomain": "School Support",
+            "question": "How supportive is your school (teachers, counselor) right now?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Quite a bit",
+                    "Very supportive"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q9",
+            "questionNumber": 9,
+            "domain": "Emotional",
+            "subdomain": "Overwhelm",
+            "question": "In the last 2 weeks, how often have you felt like giving up on everything?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_Q10",
+            "questionNumber": 10,
+            "domain": "Safety",
+            "subdomain": "Self-Harm",
+            "question": "In the last month, have you had thoughts of hurting yourself or ending your life because of exam pressure?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "No",
+                    "Prefer not"
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG"
+            }
+        },
+        {
+            "id": "G10_P4_M4_I1",
+            "questionNumber": 13,
+            "section": "Post-Event Identity",
+            "domain": "Identity",
+            "subdomain": "Post-Exam Emptiness",
+            "question": "I feel empty now that exams are over and don't know what to do with myself.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_I2",
+            "questionNumber": 14,
+            "section": "Post-Event Identity",
+            "domain": "Identity",
+            "subdomain": "Identity Loss",
+            "question": "I don't know who I am without exams to focus on.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_I3",
+            "questionNumber": 15,
+            "section": "Post-Event Identity",
+            "domain": "Identity",
+            "subdomain": "Disconnection",
+            "question": "I feel disconnected from activities I used to enjoy before exam prep.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_I4",
+            "questionNumber": 16,
+            "section": "Post-Event Identity",
+            "domain": "Identity",
+            "subdomain": "Purpose Void",
+            "question": "I feel lost about what gives my life meaning now that exams are done.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_F1",
+            "questionNumber": 17,
+            "section": "Failure Resilience",
+            "domain": "Resilience",
+            "subdomain": "Exam Definition",
+            "question": "One exam does not define my life or my worth as a person.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_F2",
+            "questionNumber": 18,
+            "section": "Failure Resilience",
+            "domain": "Resilience",
+            "subdomain": "Alternative Success",
+            "question": "I value skills, talents, and qualities beyond academic performance.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_F3",
+            "questionNumber": 19,
+            "section": "Failure Resilience",
+            "domain": "Resilience",
+            "subdomain": "Career Diversity",
+            "question": "I feel proud about non-academic interests (arts, sports, skills, vocational training).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P4_M4_F4",
+            "questionNumber": 20,
+            "section": "Failure Resilience",
+            "domain": "Resilience",
+            "subdomain": "Growth Mindset",
+            "question": "I believe I can learn and grow from any exam result, good or disappointing.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    4,
+                    3,
+                    2,
+                    1,
+                    0
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        }
+    ]
+}

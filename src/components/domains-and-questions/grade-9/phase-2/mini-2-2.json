@@ -1,0 +1,630 @@
+{
+    "metadata": {
+        "grade": 9,
+        "phase": 2,
+        "assessmentCode": "Mini 2.2",
+        "assessmentName": "Mid-Year Check",
+        "purpose": "Re-check domains flagged in M2 to measure if exam support worked",
+        "timing": "November 20",
+        "estimatedTimeMinutes": 3,
+        "isAdaptive": true
+    },
+    "scenarios": [
+        {
+            "scenarioId": "general_checkin",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_GEN_Q1",
+                    "domain": "Emotional",
+                    "question": "Overall, I feel okay about how this school year is going.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_GEN_Q2",
+                    "domain": "Academic",
+                    "question": "I feel on track with my studies for this term.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_GEN_Q3",
+                    "domain": "Sleep",
+                    "question": "Since the last exams, my sleep has been regular and restful.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_GEN_Q4",
+                    "domain": "Family",
+                    "question": "Conversations at home about marks feel manageable for me.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_GEN_Q5",
+                    "domain": "Support",
+                    "question": "If something is worrying me, I know at least one adult I can talk to.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "exam_stress_recheck",
+            "improvementThreshold": "If Q1 improves by ≥1 point",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_ES_Q1",
+                    "domain": "Academic",
+                    "question": "How are you managing exam stress now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Badly",
+                            "Very badly"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_ES_Q2",
+                    "domain": "Emotional",
+                    "question": "Have you found better coping strategies?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_ES_Q3",
+                    "domain": "Health",
+                    "question": "Is your sleep better after exams?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "mood_recheck",
+            "improvementThreshold": "If Q1 improves by ≥1 point",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_MC_Q1",
+                    "domain": "Mood",
+                    "question": "How often have you felt sad or hopeless?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_MC_Q3",
+                    "domain": "Support",
+                    "question": "Do you have support to talk to?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "family_pressure_recheck",
+            "improvementThreshold": "If Q1 and Q3 improve",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_FP_Q1",
+                    "domain": "Family",
+                    "question": "Is family pressure about marks lessening?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very much",
+                            "Quite a bit",
+                            "Somewhat",
+                            "A little",
+                            "Not at all"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_FP_Q2",
+                    "domain": "Family",
+                    "question": "Do parents understand your stress?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_FP_Q3",
+                    "domain": "Family",
+                    "question": "Is home environment calmer?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very much",
+                            "Quite a bit",
+                            "Somewhat",
+                            "A little",
+                            "Not at all"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self_harm_followup",
+            "improvementThreshold": "If Q1 = No and Q3 ≥ 3",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_SH_Q1",
+                    "domain": "Safety",
+                    "question": "In the last week, have you had thoughts of hurting yourself?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_SH_Q2",
+                    "domain": "Safety",
+                    "question": "Did you meet with counselor?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_SH_Q3",
+                    "domain": "Safety",
+                    "question": "Do you feel safer now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "emotional_check",
+            "scenarioName": "Emotional Well-being Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_EMO_Q1",
+                    "domain": "Emotional",
+                    "question": "How are you feeling emotionally?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_EMO_Q2",
+                    "domain": "Emotional",
+                    "question": "Are you finding healthy ways to cope with difficult feelings?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "exam_anxiety_check",
+            "scenarioName": "Exam Anxiety Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_EA_Q1",
+                    "domain": "Exam Anxiety",
+                    "question": "How anxious do you feel about exams?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "intensity",
+                        "scale": [
+                            "Not anxious",
+                            "Slightly",
+                            "Moderately",
+                            "Very",
+                            "Extremely"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_EA_Q2",
+                    "domain": "Exam Anxiety",
+                    "question": "Is the anxiety affecting your ability to study?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "general_stress_check",
+            "scenarioName": "General Stress & Worries Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_GS_Q1",
+                    "domain": "General Stress",
+                    "question": "Are you still feeling worried or stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_check",
+            "scenarioName": "Social Connection Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_SOC_Q1",
+                    "domain": "Social",
+                    "question": "How are your friendships going?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Not well",
+                            "Very badly"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_SOC_Q2",
+                    "domain": "Social",
+                    "question": "Do you feel connected to friends?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "somatic_check",
+            "scenarioName": "Physical Symptoms Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_SOM_Q1",
+                    "domain": "Somatic",
+                    "question": "Are you still experiencing physical symptoms (headaches, stomach aches, etc.)?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_SOM_Q2",
+                    "domain": "Somatic",
+                    "question": "Do these symptoms affect your daily activities?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "strengths_check",
+            "scenarioName": "Strengths & Self-Concept Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P2_Mini2.2_STR_Q1",
+                    "domain": "Strengths",
+                    "question": "Can you name at least one thing you're good at?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P2_Mini2.2_STR_Q2",
+                    "domain": "Strengths",
+                    "question": "Have you used any of your strengths recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

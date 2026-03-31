@@ -1,0 +1,390 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // STUDENT COGNITIVE SESSIONS (subcollection under student document)
+    match /users/{userId}/organizations/{orgId}/schools/{schoolId}/students/{studentId}/cognitive_sessions/{sessionId} {
+      allow read: if request.auth != null && (
+        request.auth.uid == userId ||
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'teacher', 'counselor']
+      );
+      allow create: if request.auth != null && (
+        request.auth.uid == userId ||
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'teacher', 'counselor']
+      );
+    }
+
+
+    // USERS collection - stores role and core auth data
+    match /users/{userId} {
+      allow read: if request.auth != null && (
+        request.auth.uid == userId ||
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'management', 'teacher', 'counselor']
+      );
+      allow write: if request.auth != null && (
+        request.auth.uid == userId ||
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin", "management", "organization"]
+      );
+      allow delete: if request.auth != null && (
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin", "management"]
+      );
+    }
+
+    // Per-user meta documents (assessment state, minis, major-completion flags, etc.)
+    // Path examples used by the app:
+    // - users/{uid}/meta/incompleteAssessment
+    // - users/{uid}/meta/pendingMini_{grade}_{phase}
+    // - users/{uid}/meta/majorCompletion
+    match /users/{userId}/meta/{metaId} {
+      allow read, write, delete: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // DEMOGRAPHICS collection - stores additional profile information
+    match /demographics/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // NOVO ADMIN
+    match /novoAdmin/{adminId} {
+      allow read, write: if request.auth != null &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "admin";
+    }
+
+    // ORGANIZATIONS (subcollection under users/{adminId}/organizations)
+    match /users/{adminId}/organizations/{orgId} {
+      allow read: if request.auth != null && (
+        request.auth.uid == adminId ||
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.organizationId == orgId
+      );
+      allow write, delete: if request.auth != null && request.auth.uid == adminId;
+      
+      // SCHOOLS (subcollection under organizations)
+      match /schools/{schoolId} {
+        allow read, write, delete: if request.auth != null && (
+          request.auth.uid == adminId ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.organizationId == orgId
+        );
+        
+        // TEACHERS (subcollection under schools)
+        match /teachers/{teacherId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.organizationId == orgId
+          );
+        }
+        
+        // STUDENTS (subcollection under schools)
+        match /students/{studentId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.organizationId == orgId
+          );
+          
+          // ASSESSMENTS (subcollection under students)
+          match /assessments/{assessmentId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // MOOD ENTRIES (subcollection under students)
+          match /mood_entries/{entryId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // WELLNESS GOALS (subcollection under students)
+          match /wellness_goals/{goalId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // ACHIEVEMENTS (subcollection under students)
+          match /achievements/{achievementId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // CHECK-INS (subcollection under students)
+          match /check_ins/{checkInId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // MINDFULNESS SESSIONS (subcollection under students)
+          match /mindfulness_sessions/{sessionId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // ENGAGEMENT STATS (subcollection under students)
+          match /engagement_stats/{statId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // JOURNAL ENTRIES (subcollection under students)
+          match /journal_entries/{entryId} {
+            allow read: if request.auth != null;
+            allow write, delete: if request.auth != null && (
+              request.auth.uid == adminId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+            );
+          }
+          
+          // CHAT TRIGGERS (subcollection under students)
+          match /chatTriggers/{triggerId} {
+            allow read: if request.auth != null && (
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'teacher', 'counselor']
+            );
+            allow create: if request.auth != null && (
+              request.auth.uid == request.resource.data.userId
+            );
+          }
+        }
+        
+        // ASSIGNMENTS (nested: assignments/_list/teachers/{teacherId}/students/{studentId})
+        match /assignments/_list/teachers/{teacherId}/students/{studentId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // GRADES (nested: grades/_list/{grade}/{section}/students/{studentId})
+        match /grades/_list/{grade}/{section}/students/{studentId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // Catch-all for any other subcollections under schools (for deletion)
+        match /{document=**} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.organizationId == orgId
+          );
+        }
+      }
+    }
+
+    // INDEPENDENT SCHOOLS (directly under admin, not under any organization)
+    match /users/{adminId}/schools/{schoolId} {
+      allow read, write, delete: if request.auth != null && (
+        request.auth.uid == adminId ||
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+      );
+      
+      // TEACHERS (subcollection under independent schools)
+      match /teachers/{teacherId} {
+        allow read: if request.auth != null;
+        allow write, delete: if request.auth != null && (
+          request.auth.uid == adminId ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+        );
+      }
+      
+      // STUDENTS (subcollection under schools)
+      match /students/{studentId} {
+        allow read: if request.auth != null;
+        allow write, delete: if request.auth != null && (
+          request.auth.uid == adminId ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+        );
+        
+        // ASSESSMENTS (subcollection under students)
+        match /assessments/{assessmentId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // MOOD ENTRIES (subcollection under students)
+        match /mood_entries/{entryId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // WELLNESS GOALS (subcollection under students)
+        match /wellness_goals/{goalId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // ACHIEVEMENTS (subcollection under students)
+        match /achievements/{achievementId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // CHECK-INS (subcollection under students)
+        match /check_ins/{checkInId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // MINDFULNESS SESSIONS (subcollection under students)
+        match /mindfulness_sessions/{sessionId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // ENGAGEMENT STATS (subcollection under students)
+        match /engagement_stats/{statId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // JOURNAL ENTRIES (subcollection under students)
+        match /journal_entries/{entryId} {
+          allow read: if request.auth != null;
+          allow write, delete: if request.auth != null && (
+            request.auth.uid == adminId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == studentId ||
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+          );
+        }
+        
+        // CHAT TRIGGERS (subcollection under students)
+        match /chatTriggers/{triggerId} {
+          allow read: if request.auth != null && (
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'teacher', 'counselor']
+          );
+          allow create: if request.auth != null && (
+            request.auth.uid == request.resource.data.userId
+          );
+        }
+      }
+      
+      // ASSIGNMENTS (nested: assignments/_list/teachers/{teacherId}/students/{studentId})
+      match /assignments/_list/teachers/{teacherId}/students/{studentId} {
+        allow read: if request.auth != null;
+        allow write, delete: if request.auth != null && (
+          request.auth.uid == adminId ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+        );
+      }
+      
+      // GRADES (nested: grades/_list/{grade}/{section}/students/{studentId})
+      match /grades/_list/{grade}/{section}/students/{studentId} {
+        allow read: if request.auth != null;
+        allow write, delete: if request.auth != null && (
+          request.auth.uid == adminId ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId
+        );
+      }
+      
+      // Catch-all for any other subcollections under independent schools
+      // e.g. config/assessmentEnablement for this school
+      match /{document=**} {
+        allow read: if request.auth != null;
+        allow write, delete: if request.auth != null && (
+          // Super-admin for this tenant
+          request.auth.uid == adminId ||
+          // School management user for this school
+          (
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.schoolId == schoolId &&
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "management"
+          )
+        );
+      }
+    }
+
+    // TEACHERS
+    match /teachers/{teacherId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && (
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin","management"]
+      );
+    }
+
+    // STUDENTS
+    match /students/{studentId} {
+      allow read: if request.auth != null &&
+        (request.auth.uid == studentId ||
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin","management"]);
+      allow write: if request.auth != null && (
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin","management"]
+      );
+    }
+
+    // CLASSES
+    match /classes/{classId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin","management"];
+    }
+
+    // ASSIGNMENTS
+    match /assignments/{assignmentId} {
+      allow read: if request.auth != null &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin","management","teacher","student"]);
+      allow write: if request.auth != null &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["admin","management","teacher"]);
+    }
+
+  }
+}

@@ -1,0 +1,673 @@
+{
+    "metadata": {
+        "grade": 8,
+        "phase": 3,
+        "assessmentCode": "M3",
+        "assessmentName": "Relationships and Self-Identity",
+        "purpose": "Address romantic relationships, body image, social hierarchy, and peer pressure",
+        "timing": "January 10",
+        "estimatedTimeMinutes": 12,
+        "totalQuestions": 25,
+        "domainsCovered": [
+            "Academic",
+            "Bullying",
+            "Emotional",
+            "Energy",
+            "Family",
+            "Future",
+            "Lifestyle",
+            "Motivation",
+            "Open",
+            "Resilience",
+            "Risk",
+            "Safety",
+            "Self",
+            "Social",
+            "Somatic",
+            "Strengths",
+            "Substance",
+            "Support",
+            "Tech"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G8_P3_M3_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q3",
+            "questionNumber": 3,
+            "domain": "Energy",
+            "subdomain": "Energy Levels",
+            "question": "How energetic have you felt most days recently?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Very energetic",
+                    "Energetic",
+                    "Okay",
+                    "Tired",
+                    "Very tired"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q4",
+            "questionNumber": 4,
+            "domain": "Motivation",
+            "subdomain": "Self-Regulation",
+            "question": "How motivated do you feel to complete your schoolwork?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Very motivated",
+                    "Quite a bit",
+                    "Somewhat",
+                    "A little",
+                    "Not at all"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q5",
+            "questionNumber": 5,
+            "domain": "Academic",
+            "subdomain": "Engagement",
+            "question": "How often do you feel bored or uninterited in your classes?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q6",
+            "questionNumber": 6,
+            "domain": "Social",
+            "subdomain": "Connection/Isolation",
+            "question": "How connected do you feel to your classmates?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Very connected",
+                    "Connected",
+                    "Somewhat connected",
+                    "A little connected",
+                    "Not at all connected"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q7",
+            "questionNumber": 7,
+            "domain": "Emotional",
+            "subdomain": "Mood",
+            "question": "Overall, how have you been feeling emotionally this term?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Very good",
+                    "Good",
+                    "Okay",
+                    "Low",
+                    "Very low"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q8",
+            "questionNumber": 8,
+            "domain": "Bullying",
+            "question": "In this term, have you been bullied or regularly made fun of at school or online?",
+            "responseType": "yesno_detailed",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Counselor check-in 1-2 hours",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q9",
+            "questionNumber": 9,
+            "domain": "Safety",
+            "subdomain": "Home Safety",
+            "question": "Do you feel safe and respected at home most of the time?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "Prefer not to say",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "No",
+                "action": "AUTO RED FLAG - Counselor check-in 1-2 hours",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q10",
+            "questionNumber": 10,
+            "domain": "Emotional",
+            "subdomain": "Hopelessness Screening",
+            "question": "Sometimes students feel like they cannot cope or want to disappear. In the last 2 weeks, how often have you felt this way?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q11",
+            "questionNumber": 11,
+            "domain": "Safety",
+            "subdomain": "Self-Harm",
+            "question": "In the last month, have you had thoughts of hurting yourself?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Prefer not to say",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Counselor check-in 1-2 hours",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q12",
+            "questionNumber": 12,
+            "domain": "Support",
+            "question": "Is there someone you can talk to when you feel low or stressed?",
+            "responseType": "yes_no_notsure",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "Not sure",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Not sure"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q13",
+            "questionNumber": 13,
+            "domain": "Social",
+            "subdomain": "Dating Pressure",
+            "question": "I feel pressured to have a boyfriend/girlfriend.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q14",
+            "questionNumber": 14,
+            "domain": "Social",
+            "subdomain": "Relationship Safety",
+            "question": "I have felt unsafe or uncomfortable in a relationship.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "Check for abuse indicators"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q15",
+            "questionNumber": 15,
+            "domain": "Self",
+            "subdomain": "Body Image",
+            "question": "I want to change my body to look like influencers or models.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q16",
+            "questionNumber": 16,
+            "domain": "Social",
+            "subdomain": "Social Status",
+            "question": "I feel like I am not 'popular' enough.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q17",
+            "questionNumber": 17,
+            "domain": "Academic",
+            "subdomain": "Truancy",
+            "question": "I have skipped classes or tuition to hang out with friends.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q18",
+            "questionNumber": 18,
+            "domain": "Emotional",
+            "subdomain": "Mood Instability",
+            "question": "I feel extreme mood swings (very happy to very sad) in a short time.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q19",
+            "questionNumber": 19,
+            "domain": "Lifestyle",
+            "subdomain": "Financial Pressure",
+            "question": "I feel guilty asking my parents for money for things my friends have.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q20",
+            "questionNumber": 20,
+            "domain": "Risk",
+            "subdomain": "Sexting Risk",
+            "question": "I have sent photos of myself that I regret.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "orange": "Yes",
+                "action": "Check for sextortion risk"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q21",
+            "questionNumber": 21,
+            "domain": "Family",
+            "subdomain": "Secrecy",
+            "question": "I hide things from my parents to avoid trouble.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q22",
+            "questionNumber": 22,
+            "domain": "Tech",
+            "subdomain": "Cyberbullying",
+            "question": "I have been cyberbullied or trolled online.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "orange": "Yes"
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q23",
+            "questionNumber": 23,
+            "domain": "Future",
+            "subdomain": "Career Confusion",
+            "question": "I am confused about what subjects to take next year.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q24",
+            "questionNumber": 24,
+            "domain": "Resilience",
+            "subdomain": "Social Resilience",
+            "question": "I can handle breakups or friend fights well.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q25",
+            "questionNumber": 25,
+            "domain": "Somatic",
+            "subdomain": "Weight Change",
+            "question": "I have lost or gained a lot of weight recently.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P3_M3_Q26",
+            "questionNumber": 26,
+            "domain": "Substance",
+            "subdomain": "Resistance",
+            "question": "I have successfully said no to peer pressure for smoking/drinking.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        }
+    ]
+}

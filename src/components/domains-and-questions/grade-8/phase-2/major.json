@@ -1,0 +1,619 @@
+{
+    "metadata": {
+        "grade": 8,
+        "phase": 2,
+        "assessmentCode": "M2",
+        "assessmentName": "Pre-Exam Stress",
+        "purpose": "Start serious exam-stress, mood, family pressure, and self-harm screening",
+        "timing": "September 10",
+        "estimatedTimeMinutes": 12,
+        "totalQuestions": 22,
+        "domainsCovered": [
+            "Academic",
+            "Emotional",
+            "Exam Stress",
+            "Family",
+            "Lifestyle",
+            "Open",
+            "Resilience",
+            "Safety",
+            "Self",
+            "Sleep",
+            "Social",
+            "Somatic",
+            "Strengths",
+            "Substance",
+            "Support",
+            "Tech"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G8_P2_M2_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q3",
+            "questionNumber": 3,
+            "domain": "Exam Stress",
+            "subdomain": "Exam Stress",
+            "question": "How stressed do you feel about your tests and exams this term?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "level",
+                "scale": [
+                    "Not at all",
+                    "A little",
+                    "Somewhat",
+                    "Quite a bit",
+                    "Very stressed"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q4",
+            "questionNumber": 4,
+            "domain": "Academic",
+            "subdomain": "Recall Confidence",
+            "question": "When you think about exams, how confident do you feel about remembering what you studied?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "confidence",
+                "scale": [
+                    "Very confident",
+                    "Confident",
+                    "Somewhat confident",
+                    "A little confident",
+                    "Not at all confident"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q5",
+            "questionNumber": 5,
+            "domain": "Sleep",
+            "subdomain": "Sleep Quality",
+            "question": "How often do you sleep less than 7 hours on school nights because of schoolwork or phone use?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q6",
+            "questionNumber": 6,
+            "domain": "Family",
+            "subdomain": "Pressure/Comparison",
+            "question": "How often do parents or relatives compare your marks with cousins, siblings, or classmates?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q7",
+            "questionNumber": 7,
+            "domain": "Family",
+            "subdomain": "Expectation Stress",
+            "question": "How does thinking about your family's expectations make you feel?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "stress_impact",
+                "scale": [
+                    "Very relaxed",
+                    "Relaxed",
+                    "Neutral",
+                    "Stressed",
+                    "Very stressed"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q8",
+            "questionNumber": 8,
+            "domain": "Social",
+            "subdomain": "Peer Connection",
+            "question": "Have exams caused any fights or distance between you and your friends?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q9",
+            "questionNumber": 9,
+            "domain": "Emotional",
+            "subdomain": "Hopelessness Screening",
+            "question": "In the last 2 weeks, how often have you felt that things are too much and will not get better?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q10",
+            "questionNumber": 10,
+            "domain": "Safety",
+            "subdomain": "Self-Harm",
+            "question": "In the last month, have you had thoughts of hurting yourself or wishing you were not alive?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Prefer not to say",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Counselor check-in 1-2 hours",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q13",
+            "questionNumber": 13,
+            "domain": "Support",
+            "question": "Would you like to talk to the counselor or a trusted adult about exam stress?",
+            "responseType": "yes_no_notsure",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Not sure",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q14",
+            "questionNumber": 14,
+            "domain": "Academic",
+            "subdomain": "Career Anxiety",
+            "question": "I am worried about my future career already.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q15",
+            "questionNumber": 15,
+            "domain": "Lifestyle",
+            "subdomain": "Overscheduling",
+            "question": "I have no free time because of tuition and school.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q16",
+            "questionNumber": 16,
+            "domain": "Social",
+            "subdomain": "Toxic Competition",
+            "question": "I feel jealous when my friends get better marks than me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q17",
+            "questionNumber": 17,
+            "domain": "Self",
+            "subdomain": "Self-Worth",
+            "question": "I define my worth by my marks.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q18",
+            "questionNumber": 18,
+            "domain": "Emotional",
+            "subdomain": "Overwhelm",
+            "question": "I feel overwhelmed by the amount of syllabus.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q19",
+            "questionNumber": 19,
+            "domain": "Academic",
+            "subdomain": "Perceived Injustice",
+            "question": "I feel some teachers favor certain students.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q20",
+            "questionNumber": 20,
+            "domain": "Sleep",
+            "subdomain": "Anxiety Manifestation",
+            "question": "I dream about exams or failing.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q21",
+            "questionNumber": 21,
+            "domain": "Resilience",
+            "subdomain": "Persistence",
+            "question": "I give up easily if a subject is too hard.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q22",
+            "questionNumber": 22,
+            "domain": "Tech",
+            "subdomain": "Procrastination",
+            "question": "I watch videos/reels to avoid studying.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q23",
+            "questionNumber": 23,
+            "domain": "Somatic",
+            "subdomain": "Physical Strain",
+            "question": "I get headaches when I study for long hours.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q24",
+            "questionNumber": 24,
+            "domain": "Social",
+            "subdomain": "Study Habits",
+            "question": "I study with friends but we end up wasting time.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P2_M2_Q25",
+            "questionNumber": 25,
+            "domain": "Substance",
+            "subdomain": "Misuse",
+            "question": "I have used energy drinks or caffeine to stay awake.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Yes"
+            }
+        }
+    ]
+}

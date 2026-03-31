@@ -1,0 +1,1057 @@
+{
+    "metadata": {
+        "grade": 6,
+        "phase": 1,
+        "assessmentCode": "Mini 1.1",
+        "assessmentName": "Adjustment Check",
+        "purpose": "Follow up on specific flags from M1",
+        "timing": "July 20",
+        "estimatedTimeMinutes": 5,
+        "isAdaptive": true,
+        "adaptiveTrigger": "Flagged in M1"
+    },
+    "scenarios": [
+        {
+            "scenarioId": "academic_anxiety",
+            "scenarioName": "Academic Anxiety",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_AA_Q1",
+                    "domain": "Academic",
+                    "question": "I am starting to understand my new class schedule better now.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_AA_Q2",
+                    "domain": "Academic",
+                    "question": "I have a quiet place at home to do my homework.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_AA_Q3",
+                    "domain": "Academic",
+                    "question": "I feel comfortable talking to my class teacher.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_AA_Q4",
+                    "domain": "Academic",
+                    "question": "I have missed submitting homework more than once this week.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            2,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_AA_Q5",
+                    "domain": "Academic",
+                    "question": "I understand what is being taught in Math and Science.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_AA_Q6",
+                    "domain": "Academic",
+                    "question": "I feel tired when I come back from school.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_isolation",
+            "scenarioName": "Social Isolation",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_SI_Q1",
+                    "domain": "Social",
+                    "question": "I have made at least one new friend in my new class.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_SI_Q2",
+                    "domain": "Social",
+                    "question": "I feel lonely during lunch break.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_SI_Q3",
+                    "domain": "Social",
+                    "question": "I have joined any games or clubs at school.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_SI_Q4",
+                    "domain": "Social",
+                    "question": "Other students include me in their conversations.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_SI_Q5",
+                    "domain": "Social",
+                    "question": "I feel safe in the school bus/van.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_SI_Q6",
+                    "domain": "Social",
+                    "question": "I prefer to be alone rather than with classmates.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "neurodevelopmental_concerns",
+            "scenarioName": "Neurodevelopmental Concerns",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_ND_Q1",
+                    "domain": "Academic",
+                    "subdomain": "Learning Difficulties",
+                    "question": "I have trouble with math concepts that seem easy for other students.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_ND_Q2",
+                    "domain": "Academic",
+                    "subdomain": "Learning Difficulties",
+                    "question": "I need extra time to understand what teachers are explaining.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_ND_Q3",
+                    "domain": "Academic",
+                    "subdomain": "Executive Function",
+                    "question": "I get confused when people give me multi-step instructions.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_ND_Q4",
+                    "domain": "Academic",
+                    "subdomain": "Executive Function",
+                    "question": "I have difficulty organizing my thoughts when I speak or write.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_ND_Q5",
+                    "domain": "Academic",
+                    "subdomain": "Support Access",
+                    "question": "I am getting extra help for subjects that are hard for me.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_ND_Q6",
+                    "domain": "Academic",
+                    "subdomain": "Support Access",
+                    "question": "I use special tools or techniques to help me learn better.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "bullying_followup",
+            "scenarioName": "Bullying Safety Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_BUL_Q1",
+                    "domain": "Bullying",
+                    "question": "Are you still experiencing bullying or mean behavior?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_BUL_Q2",
+                    "domain": "Bullying",
+                    "question": "Have you talked to an adult about it?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "general_stress_check",
+            "scenarioName": "General Stress & Worries Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_GS_Q1",
+                    "domain": "General Stress",
+                    "question": "Are you still feeling worried or stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "mood_check",
+            "scenarioName": "Mood Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_MOD_Q1",
+                    "domain": "Mood",
+                    "question": "How has your mood been lately?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very good",
+                            "Good",
+                            "Okay",
+                            "Low",
+                            "Very low"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_MOD_Q2",
+                    "domain": "Mood",
+                    "question": "Do you have things that help lift your mood?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "strengths_check",
+            "scenarioName": "Strengths & Self-Concept Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_STR_Q1",
+                    "domain": "Strengths",
+                    "question": "Can you name at least one thing you're good at?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_STR_Q2",
+                    "domain": "Strengths",
+                    "question": "Have you used any of your strengths recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "adult_support_followup",
+            "scenarioName": "Adult Support Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_ADU_Q1",
+                    "domain": "Adult Support",
+                    "question": "Is there an adult at school you can talk to when you need help?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_ADU_Q2",
+                    "domain": "Adult Support",
+                    "question": "Do your teachers listen when you have a problem?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "student_voice_followup",
+            "scenarioName": "Student Voice Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_STU_Q1",
+                    "domain": "Student Voice",
+                    "question": "Do teachers ask for your opinion in class?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_STU_Q2",
+                    "domain": "Student Voice",
+                    "question": "Can you share your ideas freely at school?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "future_hope_check",
+            "scenarioName": "Future Hope Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_FH_Q1",
+                    "domain": "Future Hope",
+                    "question": "Do you still feel hopeful about your future?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_FH_Q2",
+                    "domain": "Future Hope",
+                    "question": "Can you think of something you're looking forward to?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "adult_trust_check",
+            "scenarioName": "Adult Trust Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_AT_Q1",
+                    "domain": "Adult Trust",
+                    "question": "Do you still have at least one adult you trust completely?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_AT_Q2",
+                    "domain": "Adult Trust",
+                    "question": "Would you like help finding an adult to talk to?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self_regulation_check",
+            "scenarioName": "Self-Regulation Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_SR_Q1",
+                    "domain": "Self-Regulation",
+                    "question": "Can you calm yourself when you feel stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_SR_Q2",
+                    "domain": "Self-Regulation",
+                    "question": "Have you tried any calming activities this week?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self_worth_check",
+            "scenarioName": "Self-Worth Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_SW_Q1",
+                    "domain": "Self-Worth",
+                    "question": "Do you feel proud of yourself sometimes?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_SW_Q2",
+                    "domain": "Self-Worth",
+                    "question": "Has anything made you feel good about yourself recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "school_engagement_check",
+            "scenarioName": "School Engagement Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_SE_Q1",
+                    "domain": "School Engagement",
+                    "question": "Is there at least one thing you enjoy about school?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "belonging_check",
+            "scenarioName": "Belonging Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_BEL_Q1",
+                    "domain": "Belonging",
+                    "question": "Do you feel like you belong in your class?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_BEL_Q2",
+                    "domain": "Belonging",
+                    "question": "Have you made any new friends since the last few days?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "trauma_exposure",
+            "scenarioName": "Trauma Exposure Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.1_TE_Q1",
+                    "domain": "Safety",
+                    "question": "I feel safe and calm at home.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_TE_Q2",
+                    "domain": "Support",
+                    "question": "I have someone to talk to when I feel scared or worried.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_TE_Q3",
+                    "domain": "Safety",
+                    "question": "I have seen adults fighting or arguing at home.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            2,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_TE_Q4",
+                    "domain": "Safety",
+                    "question": "I sometimes have bad dreams or scary thoughts.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_TE_Q5",
+                    "domain": "Safety",
+                    "question": "I feel comfortable at school and in my neighborhood.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.1_TE_Q6",
+                    "domain": "Safety",
+                    "question": "I know who to ask for help if I feel unsafe.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

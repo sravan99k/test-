@@ -1,0 +1,767 @@
+{
+    "metadata": {
+        "grade": 9,
+        "phase": 3,
+        "assessmentCode": "Mini 3.2",
+        "assessmentName": "Board Year Mental Preparation",
+        "purpose": "Final mental preparation for Board year",
+        "timing": "March 10",
+        "estimatedTimeMinutes": 3,
+        "isAdaptive": true
+    },
+    "scenarios": [
+        {
+            "scenarioId": "general_checkin",
+            "scenarioName": "General Board Year Readiness",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_GEN_Q1",
+                    "domain": "Academic",
+                    "question": "I feel ready for the demands of Board year.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_GEN_Q2",
+                    "domain": "Emotional",
+                    "question": "When I think about next year, I mostly feel hopeful.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_GEN_Q3",
+                    "domain": "Balance",
+                    "question": "I have a routine that balances study, rest, and other activities.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_GEN_Q4",
+                    "domain": "Support",
+                    "question": "I know who I can ask for help if Board year feels too stressful.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_GEN_Q5",
+                    "domain": "Sleep",
+                    "question": "Lately I am getting enough sleep to feel rested for school.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "transition_check",
+            "scenarioName": "Transition to Grade 10",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_TR_Q1",
+                    "domain": "Academic",
+                    "question": "I am worried that Grade 10 will be too hard for me.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_TR_Q2",
+                    "domain": "Motivation",
+                    "question": "I have a plan for how to use my summer break (rest or study).",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "yesno",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_TR_Q3",
+                    "domain": "Emotional",
+                    "question": "I feel excited about starting a new grade.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            4,
+                            3,
+                            2,
+                            1,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "emotional_readiness_recheck",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_ER_Q1",
+                    "question": "How calm do you feel about next year?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very calm",
+                            "Calm",
+                            "Okay",
+                            "Nervous",
+                            "Very nervous"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "domain": "Emotional"
+                },
+                {
+                    "id": "G9_P3_Mini3.2_ER_Q2",
+                    "question": "Do you have stress management strategies?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    },
+                    "domain": "Emotional"
+                },
+                {
+                    "id": "G9_P3_Mini3.2_ER_Q3",
+                    "question": "Is there someone to support you?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    },
+                    "domain": "Emotional"
+                }
+            ]
+        },
+        {
+            "scenarioId": "support_access_recheck",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_SA_Q1",
+                    "question": "Know who to ask for help in Board year?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    },
+                    "domain": "Support"
+                },
+                {
+                    "id": "G9_P3_Mini3.2_SA_Q2",
+                    "question": "Teacher/counselor available?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    },
+                    "domain": "Support"
+                },
+                {
+                    "id": "G9_P3_Mini3.2_SA_Q3",
+                    "question": "Feel supported by family?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very much",
+                            "Quite a bit",
+                            "Somewhat",
+                            "A little",
+                            "Not at all"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "domain": "Support"
+                }
+            ]
+        },
+        {
+            "scenarioId": "academic_check",
+            "scenarioName": "Academic Concerns Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_ACD_Q1",
+                    "domain": "Academic",
+                    "question": "How are you managing your studies now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Struggling",
+                            "Very struggling"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_ACD_Q2",
+                    "domain": "Academic",
+                    "question": "Do you feel you need more academic support?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "bullying_followup",
+            "scenarioName": "Bullying Safety Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_BUL_Q1",
+                    "domain": "Bullying",
+                    "question": "Are you still experiencing bullying or mean behavior?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_BUL_Q2",
+                    "domain": "Bullying",
+                    "question": "Have you talked to an adult about it?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "digital_wellbeing_check",
+            "scenarioName": "Digital Well-being Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_DIG_Q1",
+                    "domain": "Digital Well-being",
+                    "question": "Is your screen time affecting your well-being?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_DIG_Q2",
+                    "domain": "Digital Well-being",
+                    "question": "Are you managing to balance online and offline activities?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "family_check",
+            "scenarioName": "Family Relationships Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_FAM_Q1",
+                    "domain": "Family",
+                    "question": "How are things at home?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very good",
+                            "Good",
+                            "Okay",
+                            "Difficult",
+                            "Very difficult"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_FAM_Q2",
+                    "domain": "Family",
+                    "question": "Do you feel supported by your family?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "general_stress_check",
+            "scenarioName": "General Stress & Worries Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_GS_Q1",
+                    "domain": "General Stress",
+                    "question": "Are you still feeling worried or stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "safety_followup",
+            "scenarioName": "Safety & Well-being Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_SAF_Q1",
+                    "domain": "Safety",
+                    "question": "Do you feel safe now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very safe",
+                            "Safe",
+                            "Somewhat safe",
+                            "Unsafe",
+                            "Very unsafe"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_SAF_Q2",
+                    "domain": "Safety",
+                    "question": "Is there someone you can talk to if you need help?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "sleep_check",
+            "scenarioName": "Sleep Pattern Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_SL_Q1",
+                    "domain": "Sleep",
+                    "question": "How well have you been sleeping?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Badly",
+                            "Very badly"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_SL_Q2",
+                    "domain": "Sleep",
+                    "question": "Are you getting at least 7-8 hours of sleep?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "somatic_check",
+            "scenarioName": "Physical Symptoms Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_SOM_Q1",
+                    "domain": "Somatic",
+                    "question": "Are you still experiencing physical symptoms (headaches, stomach aches, etc.)?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_SOM_Q2",
+                    "domain": "Somatic",
+                    "question": "Do these symptoms affect your daily activities?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "strengths_check",
+            "scenarioName": "Strengths & Self-Concept Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_STR_Q1",
+                    "domain": "Strengths",
+                    "question": "Can you name at least one thing you're good at?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_STR_Q2",
+                    "domain": "Strengths",
+                    "question": "Have you used any of your strengths recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "burnout_followup",
+            "scenarioName": "Burnout Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P3_Mini3.2_BUR_Q1",
+                    "domain": "Burnout",
+                    "question": "Do you feel emotionally drained by your studies?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P3_Mini3.2_BUR_Q2",
+                    "domain": "Burnout",
+                    "question": "Have you lost interest in things you used to enjoy?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,451 @@
+{
+    "academicYear": "2025-26",
+    "phases": [
+        {
+            "id": 1,
+            "name": "Settling In",
+            "months": [
+                "June",
+                "July"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Deep Dive",
+            "months": [
+                "August",
+                "September",
+                "October"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Resilience",
+            "months": [
+                "November",
+                "December",
+                "January"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Harvest",
+            "months": [
+                "February",
+                "March"
+            ]
+        }
+    ],
+    "assessments": {
+        "6": [
+            {
+                "id": "g6-p1-major",
+                "type": "major",
+                "phase": 1,
+                "month": "June",
+                "file": "grade-6/phase-1/major.json",
+                "title": "The New Beginning"
+            },
+            {
+                "id": "g6-p1-mini1",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-6/phase-1/mini-1-1.json",
+                "title": "Friendship Check"
+            },
+            {
+                "id": "g6-p1-mini2",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-6/phase-1/mini-1-2.json",
+                "title": "The Settling In Check"
+            },
+            {
+                "id": "g6-p2-major",
+                "type": "major",
+                "phase": 2,
+                "month": "August",
+                "file": "grade-6/phase-2/major.json",
+                "title": "Mid-Term Momentum"
+            },
+            {
+                "id": "g6-p2-mini1",
+                "type": "mini",
+                "phase": 2,
+                "month": "September",
+                "file": "grade-6/phase-2/mini-2-1.json",
+                "title": "Study Habits"
+            },
+            {
+                "id": "g6-p2-mini2",
+                "type": "mini",
+                "phase": 2,
+                "month": "October",
+                "file": "grade-6/phase-2/mini-2-2.json",
+                "title": "Classroom Dynamics"
+            },
+            {
+                "id": "g6-p3-major",
+                "type": "major",
+                "phase": 3,
+                "month": "November",
+                "file": "grade-6/phase-3/major.json",
+                "title": "Winter Growth"
+            },
+            {
+                "id": "g6-p3-mini1",
+                "type": "mini",
+                "phase": 3,
+                "month": "December",
+                "file": "grade-6/phase-3/mini-3-1.json",
+                "title": "Reflecting Back"
+            },
+            {
+                "id": "g6-p3-mini2",
+                "type": "mini",
+                "phase": 3,
+                "month": "January",
+                "file": "grade-6/phase-3/mini-3-2.json",
+                "title": "New Year Goals"
+            },
+            {
+                "id": "g6-p4-major",
+                "type": "major",
+                "phase": 4,
+                "month": "February",
+                "file": "grade-6/phase-4/major.json",
+                "title": "The Year Review"
+            }
+        ],
+        "7": [
+            {
+                "id": "g7-p1-major",
+                "type": "major",
+                "phase": 1,
+                "month": "June",
+                "file": "grade-7/phase-1/major.json",
+                "title": "Grade 7 Kickoff"
+            },
+            {
+                "id": "g7-p1-mini1",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-7/phase-1/mini-1-1.json",
+                "title": "Social Bonds"
+            },
+            {
+                "id": "g7-p1-mini2",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-7/phase-1/mini-1-2.json",
+                "title": "Adjustment Follow-Up"
+            },
+            {
+                "id": "g7-p2-major",
+                "type": "major",
+                "phase": 2,
+                "month": "August",
+                "file": "grade-7/phase-2/major.json",
+                "title": "Academic Pulse"
+            },
+            {
+                "id": "g7-p2-mini1",
+                "type": "mini",
+                "phase": 2,
+                "month": "September",
+                "file": "grade-7/phase-2/mini-2-1.json",
+                "title": "Resilience Check"
+            },
+            {
+                "id": "g7-p2-mini2",
+                "type": "mini",
+                "phase": 2,
+                "month": "October",
+                "file": "grade-7/phase-2/mini-2-2.json",
+                "title": "Hobby Balance"
+            },
+            {
+                "id": "g7-p3-major",
+                "type": "major",
+                "phase": 3,
+                "month": "November",
+                "file": "grade-7/phase-3/major.json",
+                "title": "Winter Wellness"
+            },
+            {
+                "id": "g7-p3-mini1",
+                "type": "mini",
+                "phase": 3,
+                "month": "December",
+                "file": "grade-7/phase-3/mini-3-1.json",
+                "title": "Year-End Reflection"
+            },
+            {
+                "id": "g7-p3-mini2",
+                "type": "mini",
+                "phase": 3,
+                "month": "January",
+                "file": "grade-7/phase-3/mini-3-2.json",
+                "title": "January Spark"
+            },
+            {
+                "id": "g7-p4-major",
+                "type": "major",
+                "phase": 4,
+                "month": "February",
+                "file": "grade-7/phase-4/major.json",
+                "title": "Final Year Review"
+            }
+        ],
+        "8": [
+            {
+                "id": "g8-p1-major",
+                "type": "major",
+                "phase": 1,
+                "month": "June",
+                "file": "grade-8/phase-1/major.json",
+                "title": "Adolescent Journey"
+            },
+            {
+                "id": "g8-p1-mini1",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-8/phase-1/mini-1-1.json",
+                "title": "Identity Check"
+            },
+            {
+                "id": "g8-p1-mini2",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-8/phase-1/mini-1-2.json",
+                "title": "Peer Dynamics and Family"
+            },
+            {
+                "id": "g8-p2-major",
+                "type": "major",
+                "phase": 2,
+                "month": "August",
+                "file": "grade-8/phase-2/major.json",
+                "title": "Core Foundations"
+            },
+            {
+                "id": "g8-p2-mini1",
+                "type": "mini",
+                "phase": 2,
+                "month": "September",
+                "file": "grade-8/phase-2/mini-2-1.json",
+                "title": "Peer Dynamics"
+            },
+            {
+                "id": "g8-p2-mini2",
+                "type": "mini",
+                "phase": 2,
+                "month": "October",
+                "file": "grade-8/phase-2/mini-2-2.json",
+                "title": "Tech-Life Mix"
+            },
+            {
+                "id": "g8-p3-major",
+                "type": "major",
+                "phase": 3,
+                "month": "November",
+                "file": "grade-8/phase-3/major.json",
+                "title": "Winter Strength"
+            },
+            {
+                "id": "g8-p3-mini1",
+                "type": "mini",
+                "phase": 3,
+                "month": "December",
+                "file": "grade-8/phase-3/mini-3-1.json",
+                "title": "Year Reflection"
+            },
+            {
+                "id": "g8-p3-mini2",
+                "type": "mini",
+                "phase": 3,
+                "month": "January",
+                "file": "grade-8/phase-3/mini-3-2.json",
+                "title": "Fresh Resolution"
+            },
+            {
+                "id": "g8-p4-major",
+                "type": "major",
+                "phase": 4,
+                "month": "February",
+                "file": "grade-8/phase-4/major.json",
+                "title": "Harvest Reflection"
+            }
+        ],
+        "9": [
+            {
+                "id": "g9-p1-major",
+                "type": "major",
+                "phase": 1,
+                "month": "June",
+                "file": "grade-9/phase-1/major.json",
+                "title": "Bridge to Boards"
+            },
+            {
+                "id": "g9-p1-mini1",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-9/phase-1/mini-1-1.json",
+                "title": "Academic Hopes"
+            },
+            {
+                "id": "g9-p1-mini2",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-9/phase-1/mini-1-2.json",
+                "title": "Adjustment Follow-Up"
+            },
+            {
+                "id": "g9-p2-major",
+                "type": "major",
+                "phase": 2,
+                "month": "August",
+                "file": "grade-9/phase-2/major.json",
+                "title": "Foundation Check"
+            },
+            {
+                "id": "g9-p2-mini1",
+                "type": "mini",
+                "phase": 2,
+                "month": "September",
+                "file": "grade-9/phase-2/mini-2-1.json",
+                "title": "Self-Efficacy"
+            },
+            {
+                "id": "g9-p2-mini2",
+                "type": "mini",
+                "phase": 2,
+                "month": "October",
+                "file": "grade-9/phase-2/mini-2-2.json",
+                "title": "Burnout Shield"
+            },
+            {
+                "id": "g9-p3-major",
+                "type": "major",
+                "phase": 3,
+                "month": "November",
+                "file": "grade-9/phase-3/major.json",
+                "title": "Deep Resilience"
+            },
+            {
+                "id": "g9-p3-mini1",
+                "type": "mini",
+                "phase": 3,
+                "month": "December",
+                "file": "grade-9/phase-3/mini-3-1.json",
+                "title": "Goal Review"
+            },
+            {
+                "id": "g9-p3-mini2",
+                "type": "mini",
+                "phase": 3,
+                "month": "January",
+                "file": "grade-9/phase-3/mini-3-2.json",
+                "title": "January Drive"
+            },
+            {
+                "id": "g9-p4-major",
+                "type": "major",
+                "phase": 4,
+                "month": "February",
+                "file": "grade-9/phase-4/major.json",
+                "title": "The Road Ahead"
+            }
+        ],
+        "10": [
+            {
+                "id": "g10-p1-major",
+                "type": "major",
+                "phase": 1,
+                "month": "June",
+                "file": "grade-10/phase-1/major.json",
+                "title": "Board Foundation"
+            },
+            {
+                "id": "g10-p1-mini1",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-10/phase-1/mini-1-1.json",
+                "title": "Pressure Check"
+            },
+            {
+                "id": "g10-p1-mini2",
+                "type": "mini",
+                "phase": 1,
+                "month": "July",
+                "file": "grade-10/phase-1/mini-1-2.json",
+                "title": "Progress and Confidence Check"
+            },
+            {
+                "id": "g10-p2-major",
+                "type": "major",
+                "phase": 2,
+                "month": "August",
+                "file": "grade-10/phase-2/major.json",
+                "title": "Board Momentum"
+            },
+            {
+                "id": "g10-p2-mini1",
+                "type": "mini",
+                "phase": 2,
+                "month": "September",
+                "file": "grade-10/phase-2/mini-2-1.json",
+                "title": "Mock Prep Stress"
+            },
+            {
+                "id": "g10-p2-mini2",
+                "type": "mini",
+                "phase": 2,
+                "month": "October",
+                "file": "grade-10/phase-2/mini-2-2.json",
+                "title": "Career Clarity"
+            },
+            {
+                "id": "g10-p3-major",
+                "type": "major",
+                "phase": 3,
+                "month": "November",
+                "file": "grade-10/phase-3/major.json",
+                "title": "Precision Focus"
+            },
+            {
+                "id": "g10-p3-mini1",
+                "type": "mini",
+                "phase": 3,
+                "month": "December",
+                "file": "grade-10/phase-3/mini-3-1.json",
+                "title": "Winter Grit"
+            },
+            {
+                "id": "g10-p3-mini2",
+                "type": "mini",
+                "phase": 3,
+                "month": "January",
+                "file": "grade-10/phase-3/mini-3-2.json",
+                "title": "Final Sprint"
+            },
+            {
+                "id": "g10-p4-major",
+                "type": "major",
+                "phase": 4,
+                "month": "February",
+                "file": "grade-10/phase-4/major.json",
+                "title": "Board Ready"
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "welcome": "Welcome",
+  "yourMentalHealth": "Your Mental Health",
+  "matters": "Matters",
+  "heroDescription": "A safe space for students in grades 6-10 to understand, track, and improve their mental wellbeing.",
+  "takeAssessment": "Take Assessment",
+  "viewResources": "View Resources",
+  "privateConfidential": "100% Private & Confidential",
+  "privateConfidentialDesc": "Your data is only shared with your school administrators to provide better support.",
+  "profile": "Profile",
+  "language": "Language",
+  "logout": "Logout",
+  "preferLang": "Prefer to view this site in {{lang}}?",
+  "switch": "Switch",
+  "report": {
+    "title": "Report a Concern",
+    "trustMessage": "This space is just for you. We’re listening. Everything you share is private and safe.",
+    "anonymousOption": "Submit anonymously",
+    "name": "Your name (optional)",
+    "what": "What happened?",
+    "where": "Where did it happen?",
+    "who": "Who was involved? (optional)",
+    "feeling": "How are you feeling? (optional)",
+    "file": "Upload a file (optional)",
+    "submit": "Submit Report",
+    "submitting": "Submitting...",
+    "success": "Thank you! Your report has been submitted. Your report ID: {{id}}",
+    "privacy": "Your identity won’t be shared without consent. Every report will be taken seriously."
+  }
+}

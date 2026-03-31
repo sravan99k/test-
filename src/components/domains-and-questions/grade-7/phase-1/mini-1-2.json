@@ -1,0 +1,1469 @@
+{
+    "metadata": {
+        "grade": 7,
+        "phase": 1,
+        "assessmentCode": "Mini 1.2",
+        "assessmentName": "Social Circle & Emotional Well-being Check",
+        "purpose": "Follow up ALL M1 flagged domains including social, bullying, mood, and digital stress",
+        "timing": "August 20 (2-3 weeks after M1)",
+        "estimatedTimeMinutes": 5,
+        "isAdaptive": true,
+        "adaptiveTrigger": "Students flagged in M1 for social, bullying, mood, or digital stress domains"
+    },
+    "scenarios": [
+        {
+            "scenarioId": "general_social_check",
+            "scenarioName": "General Social Check-In",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_GEN_Q1",
+                    "domain": "Social",
+                    "subdomain": "Authenticity",
+                    "question": "I feel like I can be myself around my friends.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_GEN_Q2",
+                    "domain": "Social",
+                    "subdomain": "Belonging",
+                    "question": "I look forward to seeing my friends at school.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_GEN_Q3",
+                    "domain": "Social",
+                    "subdomain": "Safety",
+                    "question": "I feel safe from teasing or bullying in my class.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_GEN_Q4",
+                    "domain": "Social",
+                    "subdomain": "Support",
+                    "question": "I have at least one friend I can talk to when something is bothering me.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_GEN_Q5",
+                    "domain": "Social",
+                    "subdomain": "Belonging",
+                    "question": "I feel included in most class activities.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_inclusion_followup",
+            "scenarioName": "Social Inclusion Follow-Up",
+            "improvementThreshold": "If Q1 or Q2 shows improvement, social integration is developing",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_INC_Q1",
+                    "domain": "Social",
+                    "subdomain": "Inclusion",
+                    "question": "Do you feel more included in your class now compared to a few weeks ago?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "comparison",
+                        "scale": [
+                            "Much more",
+                            "More",
+                            "Same",
+                            "Less",
+                            "Much less"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_INC_Q2",
+                    "domain": "Social",
+                    "question": "Have you made any new friends or connections in class?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_INC_Q3",
+                    "domain": "Social",
+                    "question": "Do you participate in group activities or discussions in class?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "peer_connection_followup",
+            "scenarioName": "Peer Connection & Friendship Follow-Up",
+            "improvementThreshold": "If Q1 = Yes, peer support is developing",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_PEER_Q1",
+                    "domain": "Social",
+                    "subdomain": "Peer Connection",
+                    "question": "Do you have a close friend you can rely on now?",
+                    "responseType": "yes_no_notsure",
+                    "responseOptions": {
+                        "type": "yesno",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": "Not sure",
+                        "orange": "No"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_PEER_Q2",
+                    "domain": "Social",
+                    "question": "Do you have someone you can share personal things with?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_PEER_Q3",
+                    "domain": "Social",
+                    "subdomain": "Peer Support",
+                    "question": "My friends encourage me to do well in school.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "bullying_followup",
+            "scenarioName": "Bullying & Exclusion Follow-Up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_BUL_Q1",
+                    "domain": "Bullying",
+                    "subdomain": "Bullying Experience",
+                    "question": "Has the bullying or teasing situation improved since M1?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Somewhat",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": "Somewhat",
+                        "orange": "No"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_BUL_Q2",
+                    "domain": "Bullying",
+                    "subdomain": "Exclusion",
+                    "question": "I have been excluded from a group chat or game recently.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": "Yes"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_BUL_Q3",
+                    "domain": "Bullying",
+                    "question": "Did you report the bullying to a teacher or counselor?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "cyberbullying_followup",
+            "scenarioName": "Cyberbullying Follow-Up",
+            "improvementThreshold": "If Q1 shows reduction, online bullying is decreasing",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_CYB_Q1",
+                    "domain": "Cyberbullying",
+                    "question": "Has anyone spread rumors about you online or made fun of you on social media in the last 2 weeks?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_CYB_Q2",
+                    "domain": "Cyberbullying",
+                    "question": "Have you blocked or reported anyone who was bothering you online?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_CYB_Q3",
+                    "domain": "Social",
+                    "question": "I feel left out of group chats.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "digital_stress_followup",
+            "scenarioName": "Digital & Social Media Stress Follow-Up",
+            "improvementThreshold": "If Q1 shows reduction, digital stress is decreasing",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_DIG_Q1",
+                    "domain": "Social",
+                    "subdomain": "Digital Stress",
+                    "question": "Using social media makes me feel stressed or worried.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3",
+                        "orange": ">=4"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_DIG_Q2",
+                    "domain": "Tech",
+                    "question": "Have you reduced your social media time in the last 2 weeks?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Somewhat",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_DIG_Q3",
+                    "domain": "Digital Well-being",
+                    "question": "Do you know how to take a break from social media when it feels stressful?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "mood_loneliness_followup",
+            "scenarioName": "Mood & Loneliness Follow-Up",
+            "improvementThreshold": "If Q1 or Q2 shows improvement, mood is stabilizing",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_MOOD_Q1",
+                    "domain": "Mood",
+                    "subdomain": "School Mood",
+                    "question": "How would you rate your overall mood at school now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "mood_rating",
+                        "scale": [
+                            "Very good",
+                            "Good",
+                            "Okay",
+                            "Low",
+                            "Very low"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3",
+                        "orange": ">=4"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_MOOD_Q2",
+                    "domain": "Emotional",
+                    "question": "Do you still feel sad or lonely even when you are with people?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3",
+                        "orange": ">=4"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_MOOD_Q3",
+                    "domain": "Emotional",
+                    "question": "Have you talked to anyone about how you've been feeling?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "academic_confidence_check",
+            "scenarioName": "Academic Confidence Check",
+            "improvementThreshold": "If Q1 or Q2 shows improvement, academic adjustment is working",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_AC_Q1",
+                    "domain": "Academic",
+                    "subdomain": "Academic Confidence",
+                    "question": "How confident do you feel about doing well in your classes now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "confidence",
+                        "scale": [
+                            "Very confident",
+                            "Confident",
+                            "Somewhat confident",
+                            "A little confident",
+                            "Not at all confident"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_AC_Q2",
+                    "domain": "Academic",
+                    "subdomain": "Organization",
+                    "question": "How well are you managing your schoolwork and homework now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "ability",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Not well",
+                            "Not at all well"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_AC_Q3",
+                    "domain": "Academic",
+                    "question": "Have you asked for help with subjects you find difficult?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "adult_support_check",
+            "scenarioName": "Adult Support & Resources Check",
+            "improvementThreshold": "If Q1 = Yes, support system is developing",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_SUP_Q1",
+                    "domain": "Support",
+                    "subdomain": "School Support Access",
+                    "question": "Is there an adult at school you feel comfortable talking to now?",
+                    "responseType": "yes_no_notsure",
+                    "responseOptions": {
+                        "type": "yesno",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": "Not sure",
+                        "orange": "No"
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_SUP_Q2",
+                    "domain": "Support",
+                    "question": "Do you know how to contact the school counselor if you need help?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "family_check",
+            "scenarioName": "Family Relationships Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_FAM_Q1",
+                    "domain": "Family",
+                    "question": "How are things at home?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very good",
+                            "Good",
+                            "Okay",
+                            "Difficult",
+                            "Very difficult"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_FAM_Q2",
+                    "domain": "Family",
+                    "question": "Do you feel supported by your family?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "general_stress_check",
+            "scenarioName": "General Stress & Worries Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_GS_Q1",
+                    "domain": "General Stress",
+                    "question": "Are you still feeling worried or stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "somatic_check",
+            "scenarioName": "Physical Symptoms Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_SOM_Q1",
+                    "domain": "Somatic",
+                    "question": "Are you still experiencing physical symptoms (headaches, stomach aches, etc.)?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_SOM_Q2",
+                    "domain": "Somatic",
+                    "question": "Do these symptoms affect your daily activities?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "strengths_check",
+            "scenarioName": "Strengths & Self-Concept Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_STR_Q1",
+                    "domain": "Strengths",
+                    "question": "Can you name at least one thing you're good at?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_STR_Q2",
+                    "domain": "Strengths",
+                    "question": "Have you used any of your strengths recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "adhd_screen_followup",
+            "scenarioName": "ADHD Screen Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_ADH_Q1",
+                    "domain": "ADHD Screen",
+                    "question": "Is it hard for you to pay attention in class?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_ADH_Q2",
+                    "domain": "ADHD Screen",
+                    "question": "Do you find it difficult to finish your work?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "academic_skills_followup",
+            "scenarioName": "Academic Skills Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_ACA_Q1",
+                    "domain": "Academic Skills",
+                    "question": "Have you been able to follow your study schedule this week?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_ACA_Q2",
+                    "domain": "Academic Skills",
+                    "question": "Are you struggling to find a quiet place to study?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "anger_coping_followup",
+            "scenarioName": "Anger Coping Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_ANG_Q1",
+                    "domain": "Anger Coping",
+                    "question": "Have you used your calming strategies when you felt angry recently?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_ANG_Q2",
+                    "domain": "Anger Coping",
+                    "question": "Do you feel like your anger is becoming harder to control?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "emotional_literacy_followup",
+            "scenarioName": "Emotional Literacy Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_EMO_Q1",
+                    "domain": "Emotional Literacy",
+                    "question": "Is it getting easier to understand what you're feeling?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_EMO_Q2",
+                    "domain": "Emotional Literacy",
+                    "question": "Do you often feel confused by your own emotions?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "girls_health_followup",
+            "scenarioName": "Girls Health Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_GIR_Q1",
+                    "domain": "Girls Health",
+                    "question": "Have you had to miss school or sports recently because of cycle pain?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_GIR_Q2",
+                    "domain": "Girls Health",
+                    "question": "Do your parents know how much discomfort you are in?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "ld_screen_followup",
+            "scenarioName": "LD Screen Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_LD _Q1",
+                    "domain": "LD Screen",
+                    "question": "Are the words still moving around when you try to read?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_LD _Q2",
+                    "domain": "LD Screen",
+                    "question": "Does your head hurt after reading for more than 10 minutes?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "memory_strategies_followup",
+            "scenarioName": "Memory Strategies Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_MEM_Q1",
+                    "domain": "Memory Strategies",
+                    "question": "Are your memory tricks helping you remember your lessons better?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_MEM_Q2",
+                    "domain": "Memory Strategies",
+                    "question": "Do you feel like you are forgetting things even when you try hard?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "romantic_followup",
+            "scenarioName": "Romantic Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_ROM_Q1",
+                    "domain": "Romantic",
+                    "question": "Are your feelings for someone making it hard to focus on school?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_ROM_Q2",
+                    "domain": "Romantic",
+                    "question": "Are you feeling pressured by friends to date someone?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self_followup",
+            "scenarioName": "Self Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_SEL_Q1",
+                    "domain": "Self",
+                    "question": "Are you still having thoughts about not wanting to be here?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_SEL_Q2",
+                    "domain": "Self",
+                    "question": "Have you talked to a trusted adult about these feelings since we last spoke?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self-harm_followup",
+            "scenarioName": "Self-harm Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_SEL_Q1",
+                    "domain": "Self-harm",
+                    "question": "In the last month, have you thought about hurting yourself?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_SEL_Q2",
+                    "domain": "Self-harm",
+                    "question": "Have you felt you'd be better off not being alive?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_media_risk_followup",
+            "scenarioName": "Social Media Risk Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_SOC_Q1",
+                    "domain": "Social Media Risk",
+                    "question": "Has anyone else asked you for private photos or info online?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_SOC_Q2",
+                    "domain": "Social Media Risk",
+                    "question": "Do you feel safe when you are on your phone at night?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_media_safety_followup",
+            "scenarioName": "Social Media Safety Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_SOC_Q1",
+                    "domain": "Social Media Safety",
+                    "question": "Is anyone currently threatening you or making you feel scared online?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_SOC_Q2",
+                    "domain": "Social Media Safety",
+                    "question": "Have you blocked the person who was making you feel uncomfortable?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "substance_detail_followup",
+            "scenarioName": "Substance Detail Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P1_Mini1.2_SUB_Q1",
+                    "domain": "Substance Detail",
+                    "question": "Have you felt pressured to try cigarettes or alcohol with your friends?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P1_Mini1.2_SUB_Q2",
+                    "domain": "Substance Detail",
+                    "question": "Are you worried about how much your friends are using substances?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "actionProtocol": {
+        "improved": "Continue current support; maintain routine monitoring",
+        "noChange": "Brief check-in within 1 week; provide additional resources",
+        "worsened": "Counselor follow-up within 3 days; reassess support strategy"
+    }
+}

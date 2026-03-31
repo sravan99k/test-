@@ -1,0 +1,486 @@
+{
+    "metadata": {
+        "grade": 6,
+        "phase": 3,
+        "assessmentCode": "M3",
+        "assessmentName": "Burnout and Bullying",
+        "purpose": "Mid-year check - bullying often peaks here; winter slump assessment",
+        "timing": "January 10",
+        "estimatedTimeMinutes": 8,
+        "totalQuestions": 18,
+        "domainsCovered": [
+            "Academic",
+            "Bullying",
+            "Emotional",
+            "Energy",
+            "Family",
+            "Motivation",
+            "Open",
+            "Safety",
+            "Sleep",
+            "Social",
+            "Strengths"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G6_P3_M3_Q1",
+            "questionNumber": 1,
+            "section": "Strengths Block",
+            "domain": "Strengths",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q3",
+            "questionNumber": 3,
+            "section": "Energy and Motivation",
+            "domain": "Energy",
+            "question": "How energetic have you felt lately?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "energy_level",
+                "scale": [
+                    "Very energetic",
+                    "Energetic",
+                    "Okay",
+                    "Tired",
+                    "Very tired"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q4",
+            "questionNumber": 4,
+            "section": "Energy and Motivation",
+            "domain": "Motivation",
+            "question": "How motivated have you felt to do your schoolwork?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "motivation_level",
+                "scale": [
+                    "Very motivated",
+                    "Motivated",
+                    "Somewhat motivated",
+                    "A little motivated",
+                    "Not at all motivated"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q5",
+            "questionNumber": 5,
+            "section": "Social Connectedness",
+            "domain": "Social",
+            "subdomain": "Peer Connection",
+            "question": "How connected do you feel to your friends?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "connection_level",
+                "scale": [
+                    "Very connected",
+                    "Quite a bit",
+                    "Somewhat",
+                    "A little",
+                    "Not at all"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q6",
+            "questionNumber": 6,
+            "section": "Emotional State",
+            "domain": "Emotional",
+            "subdomain": "Overall Mood",
+            "question": "How have you been feeling emotionally this term?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "emotional_state",
+                "scale": [
+                    "Very good",
+                    "Good",
+                    "Okay",
+                    "Low",
+                    "Very low"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q7",
+            "questionNumber": 7,
+            "section": "Home Safety",
+            "domain": "Safety",
+            "subdomain": "Home Safety",
+            "question": "Do you feel safe and comfortable at home?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "Prefer not to say",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "No",
+                "action": "AUTO RED FLAG on No - Immediate review",
+                "protocol": "Level 1-2: HOME SAFETY CRISIS"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q8",
+            "questionNumber": 8,
+            "section": "Bullying",
+            "domain": "Bullying",
+            "question": "Have you experienced any bullying or exclusion this term?",
+            "responseType": "yesno_detailed",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Yes",
+                "counselorReview": true
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q9",
+            "questionNumber": 9,
+            "section": "Academic Progress",
+            "domain": "Academic",
+            "question": "How are you feeling about your progress in your subjects?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "feeling",
+                "scale": [
+                    "Very positive",
+                    "Positive",
+                    "Neutral",
+                    "Concerned",
+                    "Very concerned"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q10",
+            "questionNumber": 10,
+            "section": "Support at Home",
+            "domain": "Family",
+            "subdomain": "Family Support",
+            "question": "Is there someone at home you can talk to if you have problems?",
+            "responseType": "yes_no_notsure",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "Not sure",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Not sure",
+                "orange": "No"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q11",
+            "questionNumber": 11,
+            "section": "Emotional Safety Block",
+            "domain": "Emotional",
+            "subdomain": "Coping",
+            "question": "Sometimes during the year, students feel like they cannot cope. How have you been feeling?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "coping_level",
+                "scale": [
+                    "I'm coping well",
+                    "Coping okay",
+                    "Struggling a bit",
+                    "Struggling quite a bit",
+                    "I'm struggling a lot"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q12",
+            "questionNumber": 12,
+            "section": "Emotional Safety Block",
+            "domain": "Safety",
+            "subdomain": "Self-Harm Ideation",
+            "question": "Have you had thoughts of hurting yourself when things feel difficult?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Prefer not to say",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Immediate counselor contact (within 1-2 hours)",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q13",
+            "questionNumber": 13,
+            "section": "Bullying",
+            "domain": "Bullying",
+            "subdomain": "Bystander",
+            "question": "I have seen others being bullied and didn't help (because I was scared or didn't know what to do).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=2",
+                "orange": ">=3"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q14",
+            "questionNumber": 14,
+            "section": "Physical Health",
+            "domain": "Sleep",
+            "question": "I am sleeping well at night (about 8 hours).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q15",
+            "questionNumber": 15,
+            "section": "Social Connectedness",
+            "domain": "Social",
+            "subdomain": "Tech Isolation",
+            "question": "I prefer playing on my phone over talking to friends.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q16",
+            "questionNumber": 16,
+            "section": "Physical Health",
+            "domain": "Emotional",
+            "subdomain": "Somatic",
+            "question": "I get sick often (headaches, colds, stomach aches).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q17",
+            "questionNumber": 17,
+            "section": "Academic Progress",
+            "domain": "Academic",
+            "subdomain": "Study Skills",
+            "question": "I have a plan for how to study for the finals.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P3_M3_Q18",
+            "questionNumber": 18,
+            "section": "Open Response",
+            "domain": "Open",
+            "question": "What makes you feel stressed at school right now?",
+            "responseType": "text",
+            "maxLines": 3
+        }
+    ]
+}

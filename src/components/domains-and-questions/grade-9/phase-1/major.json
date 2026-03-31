@@ -1,0 +1,705 @@
+{
+    "metadata": {
+        "grade": 9,
+        "phase": 1,
+        "assessmentCode": "M1",
+        "assessmentName": "The Baseline",
+        "purpose": "Screen for academic shock, career anxiety, lifestyle balance, and stream selection concerns",
+        "timing": "June 15",
+        "estimatedTimeMinutes": 17,
+        "totalQuestions": 26,
+        "domainsCovered": [
+            "Academic",
+            "Burnout",
+            "Career",
+            "Digital Well-being",
+            "Family",
+            "Lifestyle",
+            "Mood",
+            "Open",
+            "Resilience",
+            "Safety",
+            "Self",
+            "Sleep",
+            "Social",
+            "Somatic",
+            "Strengths",
+            "Substance",
+            "Support"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G9_P1_M1_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q3",
+            "questionNumber": 3,
+            "domain": "Academic",
+            "subdomain": "Academic Shock",
+            "question": "I feel overwhelmed by the sudden increase in syllabus and difficulty.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q4",
+            "questionNumber": 4,
+            "domain": "Academic",
+            "subdomain": "Academic Confidence",
+            "question": "I feel confident I can manage the new level of studies.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q5",
+            "questionNumber": 5,
+            "domain": "Career",
+            "subdomain": "Stream Anxiety",
+            "question": "I am already worried about which stream (Science/Commerce/Arts) I will choose next year.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q6",
+            "questionNumber": 6,
+            "domain": "Social",
+            "subdomain": "Social Sacrifice",
+            "question": "I feel like I have less time for friends now because of studies and tuitions.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q7",
+            "questionNumber": 7,
+            "domain": "Sleep",
+            "subdomain": "Sleep Quality",
+            "question": "I am sleeping less than 7 hours on most school nights.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q8",
+            "questionNumber": 8,
+            "domain": "Digital Well-being",
+            "subdomain": "Escape Behavior",
+            "question": "I use social media, gaming, or streaming to forget about academic stress.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q9",
+            "questionNumber": 9,
+            "domain": "Mood",
+            "subdomain": "Depression Screening",
+            "question": "In the last 2 weeks, how often have you felt sad, empty, or hopeless without a clear reason?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q10",
+            "questionNumber": 10,
+            "domain": "Family",
+            "subdomain": "Expectations",
+            "question": "My parents/relatives expect me to score top marks in Grade 9.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q11",
+            "questionNumber": 11,
+            "domain": "Support",
+            "subdomain": "Teacher Fear",
+            "question": "At least one teacher makes me feel scared or very stressed by their behaviour.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4",
+                "counselorReview": true
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q12",
+            "questionNumber": 12,
+            "domain": "Self",
+            "subdomain": "Imposter Syndrome",
+            "question": "I feel like everyone else is smarter than me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q13",
+            "questionNumber": 13,
+            "domain": "Burnout",
+            "subdomain": "Emotional Exhaustion",
+            "question": "I feel emotionally numb or empty.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q14",
+            "questionNumber": 14,
+            "domain": "Burnout",
+            "subdomain": "Anhedonia",
+            "question": "I have lost interest in things I used to enjoy.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q15",
+            "questionNumber": 15,
+            "domain": "Burnout",
+            "subdomain": "Chronic Fatigue",
+            "question": "I feel tired even after I sleep.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q16",
+            "questionNumber": 16,
+            "domain": "Burnout",
+            "subdomain": "School Refusal",
+            "question": "I dread waking up on school days.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q17",
+            "questionNumber": 17,
+            "domain": "Social",
+            "subdomain": "Isolation",
+            "question": "I feel isolated from my friends because of my study schedule.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q18",
+            "questionNumber": 18,
+            "domain": "Lifestyle",
+            "subdomain": "Tuition Overload",
+            "question": "I go to coaching/tuition classes directly after school.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q19",
+            "questionNumber": 19,
+            "domain": "Substance",
+            "subdomain": "Risk",
+            "question": "I have used substances (alcohol/vaping) to cope with stress.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q20",
+            "questionNumber": 20,
+            "domain": "Somatic",
+            "subdomain": "Stress",
+            "question": "I get frequent headaches or migraines.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q21",
+            "questionNumber": 21,
+            "domain": "Lifestyle",
+            "subdomain": "Working Student",
+            "question": "I have to work or help with family business after school.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q22",
+            "questionNumber": 22,
+            "domain": "Resilience",
+            "subdomain": "Growth Mindset",
+            "question": "I believe I can improve if I work hard.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q23",
+            "questionNumber": 23,
+            "domain": "Support",
+            "subdomain": "Adult Anchor",
+            "question": "I have a teacher who believes in me.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q24",
+            "questionNumber": 24,
+            "domain": "Safety",
+            "subdomain": "Self-Harm",
+            "question": "I have hurt myself on purpose when I felt overwhelmed.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Immediate",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q25",
+            "questionNumber": 25,
+            "domain": "Safety",
+            "subdomain": "Trauma",
+            "question": "I have experienced unwanted touch or abuse.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Immediate",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q26",
+            "questionNumber": 26,
+            "domain": "Safety",
+            "subdomain": "Sexting Coercion",
+            "question": "I have been pressured to send nude or semi-nude photos.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Immediate",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        },
+        {
+            "id": "G9_P1_M1_Q27",
+            "questionNumber": 27,
+            "domain": "Safety",
+            "subdomain": "Blackmail",
+            "question": "Someone is threatening to share my photos/secrets.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    1
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes",
+                "action": "AUTO RED FLAG - Immediate",
+                "protocol": "Level 1: IMMEDIATE DANGER"
+            }
+        }
+    ]
+}

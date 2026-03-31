@@ -1,0 +1,876 @@
+{
+    "metadata": {
+        "grade": 9,
+        "phase": 1,
+        "assessmentCode": "Mini 1.1",
+        "assessmentName": "Early Academic Adjustment & Burnout Check",
+        "purpose": "Monitor Grade 9 transition stress, academic shock, career anxiety, and early burnout signs",
+        "timing": "July 20",
+        "estimatedTimeMinutes": 5,
+        "isAdaptive": true,
+        "targetAudience": "All students - adaptive scenarios based on M1 flags"
+    },
+    "scenarios": [
+        {
+            "scenarioId": "academic_shock_recheck",
+            "scenarioName": "Academic Shock Follow-Up",
+            "improvementThreshold": "If Q1 + Q3 improve by ≥1 point, adjustment progressing",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_AS_Q1",
+                    "domain": "Academic",
+                    "question": "I am adjusting to the Grade 9 workload better now.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_AS_Q2",
+                    "domain": "Academic",
+                    "question": "I have developed a study routine that works for me.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_AS_Q3",
+                    "domain": "Burnout",
+                    "question": "I wake up feeling tired, even after sleeping enough hours.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3",
+                        "note": "Physical exhaustion indicator"
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_AS_Q4",
+                    "domain": "Academic",
+                    "question": "I can keep up with homework and assignments.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "career_anxiety_recheck",
+            "scenarioName": "Career/Stream Anxiety Follow-Up",
+            "improvementThreshold": "If Q2 = Yes and Q3 improves, career counseling helping",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_CA_Q1",
+                    "domain": "Career",
+                    "question": "How worried are you about choosing the right stream (Science/Commerce/Arts)?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "stress_level",
+                        "scale": [
+                            "Not worried",
+                            "A little worried",
+                            "Somewhat worried",
+                            "Very worried",
+                            "Extremely worried"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3"
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_CA_Q2",
+                    "domain": "Support",
+                    "question": "Have you talked to a counselor or teacher about stream selection?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_CA_Q3",
+                    "domain": "Family",
+                    "question": "My family and I agree on which stream I should choose.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_CA_Q4",
+                    "domain": "Self",
+                    "question": "I feel confident about my interests and strengths.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "academic_confidence_recheck",
+            "scenarioName": "Academic Confidence Follow-Up",
+            "improvementThreshold": "If Q1 improves and Q3 = Yes, support is working",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_AC_Q1",
+                    "domain": "Academic",
+                    "question": "I am keeping up with my studies this term.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_AC_Q2",
+                    "domain": "Burnout",
+                    "subdomain": "Cognitive Overload",
+                    "question": "I have trouble concentrating during classes because I feel overwhelmed.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3"
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_AC_Q3",
+                    "domain": "Support",
+                    "question": "I am getting extra help for subjects that are difficult.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "sleep_recheck",
+            "scenarioName": "Sleep Quality Follow-Up",
+            "improvementThreshold": "If Q1 + Q2 improve, sleep hygiene interventions working",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_SL_Q1",
+                    "domain": "Health",
+                    "question": "How well have you been sleeping in the last week?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "quality",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Not well",
+                            "Not well at all"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_SL_Q2",
+                    "domain": "Health",
+                    "question": "I am getting at least 8 hours of sleep most nights.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_SL_Q3",
+                    "domain": "Academic",
+                    "question": "Late-night study is affecting my sleep schedule.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": "Yes",
+                        "note": "Academic pressure on sleep"
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "mood_recheck",
+            "scenarioName": "Mood & Depression Screening Follow-Up",
+            "improvementThreshold": "If Q1 improves and Q3 = Yes, support helping",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_MO_Q1",
+                    "domain": "Emotional",
+                    "question": "I feel happy most days.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_MO_Q2",
+                    "domain": "Burnout",
+                    "subdomain": "Depersonalization",
+                    "question": "I feel like I'm going through the motions without really caring anymore.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "yellow": ">=3",
+                        "note": "Depersonalization - serious burnout indicator"
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_MO_Q3",
+                    "domain": "Support",
+                    "question": "I have someone I can talk to when I feel down.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "digital_wellbeing_check",
+            "scenarioName": "Digital Well-being Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_DIG_Q1",
+                    "domain": "Digital Well-being",
+                    "question": "Is your screen time affecting your well-being?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_DIG_Q2",
+                    "domain": "Digital Well-being",
+                    "question": "Are you managing to balance online and offline activities?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "general_stress_check",
+            "scenarioName": "General Stress & Worries Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_GS_Q1",
+                    "domain": "General Stress",
+                    "question": "Are you still feeling worried or stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "burnout_check",
+            "scenarioName": "Burnout Screening",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_BUR_Q1",
+                    "domain": "Burnout",
+                    "subdomain": "Cynicism",
+                    "question": "I feel cynical or negative about school.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_BUR_Q2",
+                    "domain": "Burnout",
+                    "subdomain": "Efficacy",
+                    "question": "I feel like I am achieving less than I should.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_BUR_Q3",
+                    "domain": "Burnout",
+                    "subdomain": "Exhaustion",
+                    "question": "I feel exhausted even at the start of the week.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "orange": ">=4"
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_BUR_Q4",
+                    "domain": "Recovery",
+                    "question": "I am able to relax during weekends.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "yesno",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_check",
+            "scenarioName": "Social Connection Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_SOC_Q1",
+                    "domain": "Social",
+                    "question": "How are your friendships going?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Not well",
+                            "Very badly"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_SOC_Q2",
+                    "domain": "Social",
+                    "question": "Do you feel connected to friends?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "strengths_check",
+            "scenarioName": "Strengths & Self-Concept Follow-up",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_STR_Q1",
+                    "domain": "Strengths",
+                    "question": "Can you name at least one thing you're good at?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_STR_Q2",
+                    "domain": "Strengths",
+                    "question": "Have you used any of your strengths recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "family_pressure_recheck",
+            "scenarioName": "Family Pressure Recheck",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_FP_Q1",
+                    "domain": "Family",
+                    "question": "Does your family expect too much from you academically?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_FP_Q2",
+                    "domain": "Family",
+                    "question": "Do you feel supported by your family?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "support_check",
+            "scenarioName": "Support System Check",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_SUP_Q1",
+                    "domain": "Support",
+                    "question": "Do you have a teacher you trust?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_SUP_Q2",
+                    "domain": "Support",
+                    "question": "Is there an adult at school you can talk to?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "family_check",
+            "scenarioName": "Family Environment Check",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_FAM_Q1",
+                    "domain": "Family",
+                    "question": "Is your home environment peaceful enough to study?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_FAM_Q2",
+                    "domain": "Family",
+                    "question": "Do you have conflicts with your parents often?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "study_habit_check",
+            "scenarioName": "Study Habits Check",
+            "questions": [
+                {
+                    "id": "G9_P1_Mini1.1_STU_Q1",
+                    "domain": "Academic",
+                    "question": "Do you stick to your study schedule?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G9_P1_Mini1.1_STU_Q2",
+                    "domain": "Academic",
+                    "question": "Are you easily distracted when studying?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,575 @@
+{
+    "metadata": {
+        "grade": 10,
+        "phase": 1,
+        "assessmentCode": "M1",
+        "assessmentName": "Board Exam Preparation Foundation",
+        "purpose": "High-yield screening for critical risk factors and support systems in the Board year",
+        "timing": "June 15",
+        "estimatedTimeMinutes": 8,
+        "totalQuestions": 20,
+        "domainsCovered": [
+            "Academic",
+            "Career",
+            "Cognitive",
+            "Digital Well-being",
+            "Family",
+            "Health",
+            "Lifestyle",
+            "Mood",
+            "Open",
+            "Self-Worth",
+            "Sleep",
+            "Social",
+            "Strengths",
+            "Substance",
+            "Support",
+            "Time Management"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G10_P1_M1_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q3",
+            "questionNumber": 3,
+            "domain": "Academic",
+            "subdomain": "Board Shock",
+            "question": "I feel overwhelmed by the amount of syllabus and practice needed for Boards.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q4",
+            "questionNumber": 4,
+            "domain": "Academic",
+            "subdomain": "Confidence",
+            "question": "I feel confident that I can handle the Board syllabus.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q5",
+            "questionNumber": 5,
+            "domain": "Career",
+            "subdomain": "After Grade 10 Anxiety",
+            "question": "I am worried about what will happen after Grade 10 (streams/college/entrance exams).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q6",
+            "questionNumber": 6,
+            "domain": "Time Management",
+            "subdomain": "Executive Function",
+            "question": "I can manage time between school, coaching/tuition, and self-study.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q7",
+            "questionNumber": 7,
+            "domain": "Sleep",
+            "subdomain": "Sleep Quality",
+            "question": "On most school nights, I sleep at least 7 hours.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q8",
+            "questionNumber": 8,
+            "domain": "Digital Well-being",
+            "subdomain": "Escape Behavior",
+            "question": "I use my phone or social media late at night even when I know I should sleep.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q9",
+            "questionNumber": 9,
+            "domain": "Mood",
+            "subdomain": "Depression Screening",
+            "question": "In the last 2 weeks, how often have you felt sad, empty, or hopeless without a clear reason?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q10",
+            "questionNumber": 10,
+            "domain": "Family",
+            "subdomain": "Pressure",
+            "question": "My parents/relatives put a lot of pressure on me to score very high in Boards.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q11",
+            "questionNumber": 11,
+            "domain": "Family",
+            "subdomain": "Conflict/Stress",
+            "question": "I feel angry or very stressed when my family talks about marks and exams.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q12",
+            "questionNumber": 12,
+            "domain": "Support",
+            "subdomain": "Teacher Pressure",
+            "question": "At least one teacher makes me feel very scared or stressed because of how they talk about Boards.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q13",
+            "questionNumber": 13,
+            "domain": "Self-Worth",
+            "subdomain": "Academic Validation",
+            "question": "I feel my worth as a person depends entirely on my marks.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q14",
+            "questionNumber": 14,
+            "domain": "Social",
+            "subdomain": "Isolation",
+            "question": "I have stopped seeing friends to focus only on studies.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q15",
+            "questionNumber": 15,
+            "domain": "Health",
+            "subdomain": "Neglect",
+            "question": "I skip meals or exercise because I am too busy studying.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q16",
+            "questionNumber": 16,
+            "domain": "Social",
+            "subdomain": "Comparison",
+            "question": "I feel stressed when I hear about others' coaching/tuition marks.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q17",
+            "questionNumber": 17,
+            "domain": "Lifestyle",
+            "subdomain": "Hobbies",
+            "question": "I have stopped doing my hobbies/sports completely.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q18",
+            "questionNumber": 18,
+            "domain": "Academic",
+            "subdomain": "Fear of Failure",
+            "question": "The thought of failing or getting low marks terrifies me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q19",
+            "questionNumber": 19,
+            "domain": "Support",
+            "question": "I have someone to talk to when the pressure gets too much.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q20",
+            "questionNumber": 20,
+            "domain": "Cognitive",
+            "subdomain": "Focus",
+            "question": "I find it hard to concentrate on my studies.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G10_P1_M1_Q21",
+            "questionNumber": 21,
+            "domain": "Substance",
+            "subdomain": "Energy Drinks",
+            "question": "I rely on coffee or energy drinks to stay awake for studying.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        }
+    ]
+}

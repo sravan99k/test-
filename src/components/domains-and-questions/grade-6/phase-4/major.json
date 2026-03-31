@@ -1,0 +1,402 @@
+{
+    "metadata": {
+        "grade": 6,
+        "phase": 4,
+        "assessmentCode": "M4",
+        "assessmentName": "Exit Interview",
+        "purpose": "Growth measurement and identity consolidation, reflect on first year of middle school, set goals, check support",
+        "timing": "March 25",
+        "estimatedTimeMinutes": 6,
+        "totalQuestions": 17,
+        "domainsCovered": [
+            "Academic",
+            "Emotional",
+            "Family",
+            "Future",
+            "Growth",
+            "Hope",
+            "Open",
+            "Reflection",
+            "Self",
+            "Social",
+            "Strengths",
+            "Support"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G6_P4_M4_Q1",
+            "questionNumber": 1,
+            "section": "Strengths Block",
+            "domain": "Strengths",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q3",
+            "questionNumber": 3,
+            "section": "Academic",
+            "domain": "Academic",
+            "subdomain": "Academic Progress",
+            "question": "How do you feel about your progress in your subjects so far?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "feeling",
+                "scale": [
+                    "Very positive",
+                    "Positive",
+                    "Neutral",
+                    "Concerned",
+                    "Very concerned"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q4",
+            "questionNumber": 4,
+            "section": "Social",
+            "domain": "Social",
+            "subdomain": "Friendships",
+            "question": "How would you describe your friendships this year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "quality",
+                "scale": [
+                    "Very good",
+                    "Good",
+                    "Okay",
+                    "Difficult",
+                    "Very difficult"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q5",
+            "questionNumber": 5,
+            "section": "Hope and Motivation",
+            "domain": "Hope",
+            "question": "How hopeful do you feel about the rest of this school year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "hopefulness",
+                "scale": [
+                    "Very hopeful",
+                    "Hopeful",
+                    "Somewhat hopeful",
+                    "A little hopeful",
+                    "Not at all hopeful"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q6",
+            "questionNumber": 6,
+            "section": "Family Support",
+            "domain": "Family",
+            "subdomain": "Family Support",
+            "question": "How supported do you feel by your family with your schoolwork?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "feeling",
+                "scale": [
+                    "Very much",
+                    "Quite a bit",
+                    "Somewhat",
+                    "A little",
+                    "Not at all"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "note": "Low family support may impact Grade 7 transition"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q9",
+            "questionNumber": 9,
+            "section": "Support Access",
+            "domain": "Support",
+            "subdomain": "Support Access",
+            "question": "Do you know who to talk to if you need help at school?",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Yes",
+                "note": "Student may not have identified supportive adult"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q10",
+            "questionNumber": 10,
+            "section": "Growth",
+            "domain": "Growth",
+            "subdomain": "Confidence",
+            "question": "I feel more confident now than I did at the start of Grade 6.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q11",
+            "questionNumber": 11,
+            "section": "Future",
+            "domain": "Future",
+            "subdomain": "Transition",
+            "question": "I am excited to go to Grade 7.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q12",
+            "questionNumber": 12,
+            "section": "Social",
+            "domain": "Social",
+            "subdomain": "Social Growth",
+            "question": "I have better friends now than I did in June.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q13",
+            "questionNumber": 13,
+            "section": "Emotional",
+            "domain": "Emotional",
+            "subdomain": "Regulation",
+            "question": "I learned how to control my anger better this year.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q14",
+            "questionNumber": 14,
+            "section": "Self",
+            "domain": "Self",
+            "subdomain": "Self-Esteem",
+            "question": "I like myself more now than I did before.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q15",
+            "questionNumber": 15,
+            "section": "Reflection",
+            "domain": "Reflection",
+            "subdomain": "Difficulty",
+            "question": "This was a difficult year for me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q16",
+            "questionNumber": 16,
+            "section": "Reflection",
+            "domain": "Reflection",
+            "subdomain": "Achievement",
+            "question": "I am proud of what I achieved this year.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P4_M4_Q17",
+            "questionNumber": 17,
+            "section": "Open Response",
+            "domain": "Open",
+            "question": "What is your best memory from Grade 6?",
+            "responseType": "text",
+            "maxLines": 3
+        }
+    ],
+    "yearEndReflection": {
+        "note": "M4 is a reflective, growth-focused assessment. Focus on positive reinforcement, identity consolidation, and forward-looking optimism."
+    }
+}

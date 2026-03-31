@@ -1,0 +1,113 @@
+{
+    "domains": [
+        {
+            "id": "strengths",
+            "name": "Strengths & Protective Factors",
+            "description": "Positive attributes, self-concept, resilience factors",
+            "subdomains": [
+                "Self-Concept",
+                "Self-Worth",
+                "Hope",
+                "Self-Regulation",
+                "School Engagement",
+                "Belonging"
+            ]
+        },
+        {
+            "id": "academic",
+            "name": "Academic",
+            "description": "School performance, workload management, study habits, learning difficulties",
+            "subdomains": [
+                "Academic Confidence",
+                "Academic Adjustment",
+                "Academic Anxiety",
+                "Exam Stress",
+                "Learning Difficulties",
+                "Executive Function"
+            ]
+        },
+        {
+            "id": "social",
+            "name": "Social & Peer",
+            "description": "Friendships, belonging, peer relationships, social inclusion",
+            "subdomains": [
+                "Peer Connection",
+                "Social Isolation",
+                "Social Inclusion",
+                "Peer Pressure",
+                "Belonging"
+            ]
+        },
+        {
+            "id": "emotional",
+            "name": "Emotional & Mood",
+            "description": "Emotional well-being, mood states, anxiety, depression",
+            "subdomains": [
+                "Mood",
+                "School Mood",
+                "Depression",
+                "Anxiety",
+                "Emotional Overwhelm",
+                "Emotional Stress"
+            ]
+        },
+        {
+            "id": "safety",
+            "name": "Safety",
+            "description": "Bullying, self-harm, home safety, trauma exposure",
+            "subdomains": [
+                "Bullying",
+                "Self-Harm Ideation",
+                "Home Safety",
+                "Trauma Exposure",
+                "General Safety"
+            ]
+        },
+        {
+            "id": "family",
+            "name": "Family & Home",
+            "description": "Family support, home environment, parental expectations",
+            "subdomains": [
+                "Family Support",
+                "Home Safety",
+                "Parental Expectations",
+                "Family Pressure"
+            ]
+        },
+        {
+            "id": "support",
+            "name": "Adult Support",
+            "description": "Access to supportive adults and help-seeking",
+            "subdomains": [
+                "Adult Trust",
+                "School Support Access",
+                "Support Needs"
+            ]
+        },
+        {
+            "id": "sleep",
+            "name": "Sleep & Energy",
+            "description": "Sleep quality, energy levels, fatigue",
+            "subdomains": [
+                "Sleep Quality",
+                "Energy Levels"
+            ]
+        },
+        {
+            "id": "bullying",
+            "name": "Bullying",
+            "description": "Bullying experiences, exclusion, harassment",
+            "subdomains": [
+                "Bullying Experience",
+                "Online Bullying",
+                "Exclusion"
+            ]
+        }
+    ],
+    "domainMapping": {
+        "note": "Maps question domains to primary domain categories for analysis",
+        "General Stress": "emotional",
+        "Student Voice": "support",
+        "Exam Stress": "academic"
+    }
+}

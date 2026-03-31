@@ -1,0 +1,701 @@
+{
+    "metadata": {
+        "grade": 9,
+        "phase": 3,
+        "assessmentCode": "M3",
+        "assessmentName": "The Decision Point",
+        "purpose": "Address stream selection pressure, identity formation, and pre-board preparation stress",
+        "timing": "January 10",
+        "estimatedTimeMinutes": 15,
+        "totalQuestions": 24,
+        "domainsCovered": [
+            "Academic",
+            "Bullying",
+            "Burnout",
+            "Career",
+            "Digital Well-being",
+            "Emotional",
+            "Family",
+            "Health",
+            "Identity",
+            "Motivation",
+            "Open",
+            "Safety",
+            "Sleep",
+            "Social",
+            "Somatic",
+            "Strengths",
+            "Substance"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G9_P3_M3_Q1",
+            "questionNumber": 1,
+            "domain": "Strengths",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q3",
+            "questionNumber": 3,
+            "domain": "Burnout",
+            "question": "I feel tired of school and want a long break.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q4",
+            "questionNumber": 4,
+            "domain": "Academic",
+            "question": "I am keeping up with my studies this term.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q5",
+            "questionNumber": 5,
+            "domain": "Bullying",
+            "question": "I have been teased or bullied at school this term.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q6",
+            "questionNumber": 6,
+            "domain": "Bullying",
+            "subdomain": "Bystander",
+            "question": "I have seen others being bullied and did not know how to help.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q7",
+            "questionNumber": 7,
+            "domain": "Emotional",
+            "question": "I feel happy most days.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q8",
+            "questionNumber": 8,
+            "domain": "Sleep",
+            "question": "I am sleeping well at night (around 8 hours).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q9",
+            "questionNumber": 9,
+            "domain": "Emotional",
+            "subdomain": "Self-Worth",
+            "question": "I feel like I don't have any special talents.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q10",
+            "questionNumber": 10,
+            "domain": "Family",
+            "subdomain": "Listening/Support",
+            "question": "My parents listen to me when I have a problem.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q11",
+            "questionNumber": 11,
+            "domain": "Digital Well-being",
+            "subdomain": "Isolation",
+            "question": "I prefer using my phone/computer over talking to people in person.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q12",
+            "questionNumber": 12,
+            "domain": "Somatic",
+            "question": "I get sick often (headaches, colds, stomach aches).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q13",
+            "questionNumber": 13,
+            "domain": "Academic",
+            "subdomain": "Planning",
+            "question": "I have a plan for how to study for finals.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q14",
+            "questionNumber": 14,
+            "domain": "Emotional",
+            "subdomain": "Hopelessness Screening",
+            "question": "In the last 2 weeks, how often have you felt like you cannot cope with everything?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q15",
+            "questionNumber": 15,
+            "domain": "Safety",
+            "subdomain": "Self-Harm",
+            "question": "In the last month, have you had thoughts of hurting yourself when things feel too hard?",
+            "responseType": "yes_no_prefer",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Prefer not to say",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes"
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q16",
+            "questionNumber": 16,
+            "domain": "Career",
+            "subdomain": "Stream Anxiety",
+            "question": "I feel scared about choosing the wrong stream for Grade 11.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q17",
+            "questionNumber": 17,
+            "domain": "Family",
+            "subdomain": "Parental Pressure",
+            "question": "My parents want me to choose a stream I am not interested in.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q18",
+            "questionNumber": 18,
+            "domain": "Social",
+            "subdomain": "Peer Pressure",
+            "question": "I am choosing my stream based on what my friends are taking.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q19",
+            "questionNumber": 19,
+            "domain": "Identity",
+            "subdomain": "Self-Knowledge",
+            "question": "I feel like I don't know who I am or what I want.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q20",
+            "questionNumber": 20,
+            "domain": "Academic",
+            "subdomain": "Pre-Board Panic",
+            "question": "I feel panicked when I think about the upcoming final exams.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q21",
+            "questionNumber": 21,
+            "domain": "Motivation",
+            "subdomain": "Slump",
+            "question": "I have lost all motivation to study.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q22",
+            "questionNumber": 22,
+            "domain": "Social",
+            "subdomain": "Withdrawal",
+            "question": "I have stopped meeting friends so I can study more.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q23",
+            "questionNumber": 23,
+            "domain": "Sleep",
+            "subdomain": "Deprivation",
+            "question": "I am sleeping less than 6 hours to study.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q24",
+            "questionNumber": 24,
+            "domain": "Health",
+            "subdomain": "Body Image",
+            "question": "I am stress-eating or skipping meals frequently.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q25",
+            "questionNumber": 25,
+            "domain": "Substance",
+            "subdomain": "Study Aids",
+            "question": "I use energy drinks, caffeine pills, or other substances to stay awake.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G9_P3_M3_Q26",
+            "questionNumber": 26,
+            "domain": "Digital Well-being",
+            "subdomain": "Escapism",
+            "question": "I get distracted by my phone when I try to study.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        }
+    ]
+}

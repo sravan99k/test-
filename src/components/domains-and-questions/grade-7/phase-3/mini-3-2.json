@@ -1,0 +1,728 @@
+{
+    "metadata": {
+        "grade": 7,
+        "phase": 3,
+        "assessmentCode": "Mini 3.2",
+        "assessmentName": "Final Exam Readiness & Winter Wellness Check",
+        "purpose": "Final readiness check before exams + follow-up on ALL M3 flagged domains",
+        "timing": "March 10 (2-3 weeks after Mini 3.1)",
+        "estimatedTimeMinutes": 5,
+        "isAdaptive": true,
+        "adaptiveTrigger": "Students flagged in M3 for any domain"
+    },
+    "scenarios": [
+        {
+            "scenarioId": "general_readiness",
+            "scenarioName": "General Exam Readiness",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_GEN_Q1",
+                    "domain": "Academic",
+                    "question": "I feel ready for final exams.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_GEN_Q2",
+                    "domain": "Academic",
+                    "question": "I have a good study plan.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_GEN_Q3",
+                    "domain": "Support",
+                    "question": "I know who to ask for help if needed.",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_GEN_Q4",
+                    "domain": "Sleep",
+                    "question": "During exam preparation, I am still getting enough sleep and rest.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_GEN_Q5",
+                    "domain": "Emotional",
+                    "question": "When I think about the exams, I can calm myself down if I start to feel nervous.",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "energy_fatigue_followup",
+            "scenarioName": "Energy & Fatigue Follow-Up",
+            "improvementThreshold": "If Q1 shows improvement or Q2 = Yes, fatigue may be resolving",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_ENG_Q1",
+                    "domain": "Energy",
+                    "question": "How energetic do you feel now compared to a few weeks ago?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "comparison",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_ENG_Q2",
+                    "domain": "Energy",
+                    "question": "Are you getting enough sleep at night?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_ENG_Q3",
+                    "domain": "Physical Health",
+                    "question": "Are you eating regular meals?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "coping_struggle_followup",
+            "scenarioName": "Emotional Coping Follow-Up",
+            "improvementThreshold": "If Q1 shows better coping ability, stress management is working",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_EMO_Q1",
+                    "domain": "Emotional",
+                    "question": "How well are you coping with stress now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "coping",
+                        "scale": [
+                            "Coping well",
+                            "Coping okay",
+                            "Struggling a bit",
+                            "Struggling quite a bit",
+                            "Struggling a lot"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_EMO_Q2",
+                    "domain": "Emotional",
+                    "question": "Have you learned any ways to manage stress before exams?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_EMO_Q3",
+                    "domain": "Emotional",
+                    "question": "Do you feel overwhelmed when you think about upcoming exams?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "bullying_recheck",
+            "scenarioName": "Bullying Re-Check",
+            "improvementThreshold": "If Q1 = Yes, bullying has stopped or reduced",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_BUL_Q1",
+                    "domain": "Bullying",
+                    "question": "Has the bullying or exclusion situation improved since M3?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Somewhat",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    },
+                    "flagConditions": {
+                        "orange": "No",
+                        "counselorReview": true
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_BUL_Q2",
+                    "domain": "Bullying",
+                    "question": "Do you feel safe at school now?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "digital_wellbeing_check",
+            "scenarioName": "Digital Well-being Check",
+            "improvementThreshold": "If Q1 shows reduced time or Q2 = Yes, digital balance improving",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_DIG_Q1",
+                    "domain": "Digital Well-being",
+                    "question": "How much time are you spending on your phone/social media now during exam prep?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "time",
+                        "scale": [
+                            "0-1 hrs",
+                            "1-2 hrs",
+                            "2-3 hrs",
+                            "3-4 hrs",
+                            "4+ hrs"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_DIG_Q2",
+                    "domain": "Digital Well-being",
+                    "question": "Have you been able to limit your screen time to focus on studies?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "family_support_check",
+            "scenarioName": "Family Support Check",
+            "improvementThreshold": "If Q1 or Q2 = Yes, support system is developing",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_FAM_Q1",
+                    "domain": "Family",
+                    "question": "Is there now someone at home you can talk to about your worries?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_FAM_Q2",
+                    "domain": "Support",
+                    "question": "Have you talked to a school counselor or teacher about getting support?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "home_safety_followup",
+            "scenarioName": "Home Safety Crisis Follow-Up",
+            "improvementThreshold": "If Q1 = Yes, immediate home safety crisis may be resolving",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_HS_Q1",
+                    "domain": "Safety",
+                    "question": "Do you feel safe and comfortable at home now?",
+                    "responseType": "yes_no_prefer",
+                    "responseOptions": {
+                        "type": "yesno",
+                        "options": [
+                            "No",
+                            "Prefer not to say",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    },
+                    "flagConditions": {
+                        "red": "No",
+                        "action": "AUTO RED FLAG - HOME SAFETY ONGOING",
+                        "protocol": "Level 1-2"
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_HS_Q2",
+                    "domain": "Safety",
+                    "question": "Did you meet with the school counselor after the last assessment?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    },
+                    "flagConditions": {
+                        "orange": "No",
+                        "note": "If No, intervention protocol was not followed"
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_HS_Q3",
+                    "domain": "Support",
+                    "question": "Is there a safe adult you can stay with if you feel unsafe?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self_harm_followup",
+            "scenarioName": "Self-Harm Crisis Follow-Up",
+            "improvementThreshold": "If Q1 = No and Q4 shows improvement, immediate crisis may be resolving",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_SH_Q1",
+                    "domain": "Safety",
+                    "question": "In the last week, have you had thoughts of hurting yourself?",
+                    "responseType": "yes_no_prefer",
+                    "responseOptions": {
+                        "type": "yesno",
+                        "options": [
+                            "No",
+                            "Prefer not to say",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            2,
+                            4
+                        ]
+                    },
+                    "flagConditions": {
+                        "red": "Yes",
+                        "action": "AUTO RED FLAG - Immediate counselor escalation",
+                        "protocol": "Level 1: IMMEDIATE DANGER"
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_SH_Q2",
+                    "domain": "Safety",
+                    "question": "Did you meet with the school counselor after the last assessment?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    },
+                    "flagConditions": {
+                        "orange": "No",
+                        "note": "If No, intervention protocol was not followed"
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_SH_Q3",
+                    "domain": "Support",
+                    "question": "Do you have someone you trust to talk to when you feel overwhelmed?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_SH_Q4",
+                    "domain": "Safety",
+                    "question": "Do you feel safer now than you did a few weeks ago?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "safety_feeling",
+                        "scale": [
+                            "Much better",
+                            "Better",
+                            "Same",
+                            "Worse",
+                            "Much worse"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "motivation_check",
+            "scenarioName": "Motivation Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_MOT_Q1",
+                    "domain": "Motivation",
+                    "question": "How motivated do you feel about school?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very motivated",
+                            "Motivated",
+                            "Neutral",
+                            "Unmotivated",
+                            "Very unmotivated"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_MOT_Q2",
+                    "domain": "Motivation",
+                    "question": "Do you have goals that excite you?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_check",
+            "scenarioName": "Social Connection Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_SOC_Q1",
+                    "domain": "Social",
+                    "question": "How are your friendships going?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "level",
+                        "scale": [
+                            "Very well",
+                            "Well",
+                            "Okay",
+                            "Not well",
+                            "Very badly"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_SOC_Q2",
+                    "domain": "Social",
+                    "question": "Do you feel connected to friends?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "strengths_check",
+            "scenarioName": "Strengths & Self-Concept Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_STR_Q1",
+                    "domain": "Strengths",
+                    "question": "Can you name at least one thing you're good at?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G7_P3_Mini3.2_STR_Q2",
+                    "domain": "Strengths",
+                    "question": "Have you used any of your strengths recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "student_voice_check",
+            "scenarioName": "Student Voice Follow-up",
+            "questions": [
+                {
+                    "id": "G7_P3_Mini3.2_VOI_Q1",
+                    "domain": "Voice",
+                    "question": "Do you feel your opinions are heard at school?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "actionProtocol": {
+        "improved": "Continue current support; maintain routine monitoring",
+        "noChange": "Brief check-in within 1 week; provide additional resources",
+        "worsened": "Counselor follow-up within 3 days; reassess support strategy"
+    }
+}

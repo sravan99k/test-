@@ -1,0 +1,462 @@
+{
+    "S-SEL": {
+        "indicators": [
+            "Negative self-talk (e.g., 'I am stupid')",
+            "Rejects praise ('Teacher is just being nice')",
+            "Avoids leading roles in group work",
+            "Comparing self poorly with high-achieving cousins/peers",
+            "Afraid to try new things due to fear of failure"
+        ],
+        "context": "Establishing baseline self-perception and confidence in their own abilities.",
+        "actions": {
+            "low": [
+                "Notice and name strengths in class",
+                "Give small roles that use their talents",
+                "Reinforce growth-mindset language"
+            ],
+            "medium": [
+                "Ask 'What are you proud of this week?'",
+                "Connect them to small success tasks",
+                "Use positive reinforcement for effort, not just results"
+            ],
+            "high": [
+                "Student says 'I am useless/can't do anything'",
+                "Avoid harsh or public criticism",
+                "Co-create a 'Small Success Plan' with student and counselor"
+            ]
+        }
+    },
+    "A-CON": {
+        "indicators": [
+            "Erases work frequently (Perfectionism)",
+            "Anxiety during surprise tests",
+            "Won't start new tasks without guidance",
+            "Hiding marks/report cards from parents",
+            "Obsessive comparison of rank in class"
+        ],
+        "context": "High academic transition pressure, especially in competitive Indian school environments.",
+        "actions": {
+            "low": [
+                "Give challenging work with supportive feedback",
+                "Use them as a peer tutor occasionally",
+                "Normalize mistakes as learning jumps"
+            ],
+            "medium": [
+                "Break tasks into 3 smaller steps",
+                "Praise strategy/effort, not just marks",
+                "Allow extra clarification time 1-on-1"
+            ],
+            "high": [
+                "Consistent avoidance, frequent 'I can't'",
+                "Coordinate with parents to lower domestic pressure",
+                "Involve counselor for remedial support and exam accommodations"
+            ]
+        }
+    },
+    "P-REL": {
+        "indicators": [
+            "Isolation during lunch/breaks (Tiffin exclusion)",
+            "Language-barrier teasing (English fluency)",
+            "Niknamed mockingly by peers",
+            "Conflict in group work",
+            "Clingy to one specific peer"
+        ],
+        "context": "Social integration mapping within the regional cultural context.",
+        "actions": {
+            "low": [
+                "Keep them in mixed groups",
+                "Reinforce inclusive behavior in class"
+            ],
+            "medium": [
+                "Notice who they sit with",
+                "Pair with a 'Kind Buddy'",
+                "Teach empathy through local stories"
+            ],
+            "high": [
+                "Frequent isolation or crying",
+                "Consult counselor immediately",
+                "Review seating to break status-cliques"
+            ]
+        }
+    },
+    "A-SUP": {
+        "indicators": [
+            "Avoids eye contact with teachers",
+            "Reluctant to ask questions for fear of being scolded",
+            "Defensive/Aggressive tone",
+            "Telling other students teachers are 'strict/scary'"
+        ],
+        "context": "Developing teacher-student trust in hierarchical school systems.",
+        "actions": {
+            "low": [
+                "Maintain 'Open Door' tone",
+                "Greet student by name personally every day",
+                "Show interest in their hobbies outside school"
+            ],
+            "medium": [
+                "Schedule a brief 2-minute 1:1 check-in",
+                "Explicitly invite their questions after class",
+                "Model non-judgmental listening"
+            ],
+            "high": [
+                "Reports 'no adult to trust'",
+                "Identify one 'Safe Adult' in school",
+                "Intentionally build trust through small, daily non-academic interactions"
+            ]
+        }
+    },
+    "M-EMO": {
+        "indicators": [
+            "Sudden mood shifts",
+            "Low energy in class",
+            "Withdrawal from favorites",
+            "Unexplained crying",
+            "Excessive fatigue noticed during sessions"
+        ],
+        "context": "Emotional wellbeing patterns noticed amid school environment.",
+        "actions": {
+            "low": [
+                "Continue warm interactions",
+                "Mention wellness tools to the whole class",
+                "Normal ups and downs acknowledgment"
+            ],
+            "medium": [
+                "Private talk: 'You seem low, want to share?'",
+                "Link to mood diary or journal",
+                "Monitor behavior for 2 weeks"
+            ],
+            "high": [
+                "Persistent sadness or significant distress",
+                "Inform lead support person/Counselor the SAME DAY",
+                "Follow school protocol – do NOT minimize feelings"
+            ]
+        }
+    },
+    "B-SAF": {
+        "indicators": [
+            "Fear of specific areas (Washrooms)",
+            "Frequent 'stomach aches' on Monday",
+            "Missing possessions/tiffin",
+            "Cyber-bullying rumors on Discord/WhatsApp"
+        ],
+        "context": "Safety and security surveillance against peer-to-peer bullying.",
+        "actions": {
+            "low": [
+                "Mediate respectfully",
+                "Reinforce class rules on respect",
+                "Monitor corridor movement"
+            ],
+            "medium": [
+                "Document specific incidents",
+                "Inform parents and counselor",
+                "Separate students in seating and groups"
+            ],
+            "high": [
+                "Severe threats or physical harm",
+                "Treat as safety emergency",
+                "Involve Principal/Safety Officer immediately; never ignore rumors"
+            ]
+        }
+    },
+    "H-SAF": {
+        "indicators": [
+            "Reluctance to go home",
+            "Tiredness/Hunger",
+            "Vague family comments",
+            "Extreme fear of parents being called to school"
+        ],
+        "context": "Environmental safety baseline at home.",
+        "actions": {
+            "low": [
+                "Listen calmly to comments",
+                "Thank child for sharing minor details"
+            ],
+            "medium": [
+                "Consult Counselor/Child Protection Lead same day for ambiguity"
+            ],
+            "high": [
+                "Follow School Child Protection Protocol IMMEDIATELY",
+                "Involve Principal",
+                "Avoid sending child home without a safety plan"
+            ]
+        }
+    },
+    "S-HAR": {
+        "indicators": [
+            "Clothes covering skin in summer (covering marks)",
+            "Unexplained scratches/marks",
+            "Fascination with painful topics",
+            "Sudden personality shift towards darkness"
+        ],
+        "context": "Urgent safety monitoring for self-harm or suicidal ideation.",
+        "actions": {
+            "low": [
+                "Maintain warm connection",
+                "Stay observatory without being intrusive"
+            ],
+            "medium": [
+                "Mention resources quietly",
+                "Inform counselor of increased signs"
+            ],
+            "high": [
+                "Do NOT leave student alone",
+                "Inform Counselor/Principal IMMEDIATELY",
+                "Follow school crisis intervention protocol step-by-step"
+            ]
+        }
+    },
+    "S-ENE": {
+        "indicators": [
+            "Sleeping in class",
+            "Tuition fatigue (School + 4hrs tuition)",
+            "Dark circles under eyes",
+            "Excessive reliance on energy drinks/chai",
+            "Skipping breakfast due to late-night study"
+        ],
+        "context": "Physiological resource tracking; impact of high-intensity Indian study culture.",
+        "actions": {
+            "low": [
+                "Class talk on sleep hygiene",
+                "Check total homework load from all subjects"
+            ],
+            "medium": [
+                "Private check-in on tuition hours",
+                "Suggest digital-wellness routines",
+                "Offer flexible deadlines for 1 week"
+            ],
+            "high": [
+                "Severe shutdown/collapse",
+                "Urgent medical/parent meeting",
+                "Mandatory workload reduction"
+            ]
+        }
+    },
+    "F-SUP": {
+        "indicators": [
+            "Extreme fear of PTMs",
+            "Comparing marks with cousins constantly",
+            "Fear of 'Izzat' (Family Reputation) loss",
+            "Over-scheduled weekends with extra classes"
+        ],
+        "context": "Managing performance pressure from the family unit in India.",
+        "actions": {
+            "low": [
+                "In PTMs, praise effort specifically",
+                "Share realistic growth expectations with parents"
+            ],
+            "medium": [
+                "Arrange calm parent meeting",
+                "Explain impact of performance pressure on wellbeing",
+                "Suggest 'No-Study' Sunday routine"
+            ],
+            "high": [
+                "Coordinate structured family meeting with Counselor",
+                "If parental strain is significant, follow support pathway"
+            ]
+        }
+    },
+    "H-FUT": {
+        "indicators": [
+            "Frequent 'what's the point' comments",
+            "Lack of interest in future plans",
+            "Pessimism about efforts leading to results"
+        ],
+        "context": "Hope and future orientation in the current competitive climate.",
+        "actions": {
+            "low": [
+                "Encourage goal-setting",
+                "Celebrate small progress"
+            ],
+            "medium": [
+                "Discuss strengths and varied career options",
+                "Refer to career guidance"
+            ],
+            "high": [
+                "Urgent counselor referral",
+                "Increase frequency of check-ins",
+                "Adjust academic expectations temporarily"
+            ]
+        }
+    },
+    "B-IMG": {
+        "indicators": [
+            "Negative comments about own appearance",
+            "Skipping meals in school",
+            "Obsessive checking in mirrors or hiding in baggy clothes"
+        ],
+        "context": "Body image and self-perception in the age of social media.",
+        "actions": {
+            "low": [
+                "Stop appearance-based teasing in class",
+                "Model non-appearance praise"
+            ],
+            "medium": [
+                "Validation of feelings in private talk",
+                "Connect to body-image support resources"
+            ],
+            "high": [
+                "Social withdrawal due to shame",
+                "Inform parents and counselor",
+                "Professional evaluation referral"
+            ]
+        }
+    },
+    "D-TEC": {
+        "indicators": [
+            "Distracted by notifications during class",
+            "Extreme reactions when devices are taken",
+            "Rumors of online conflict/harassment"
+        ],
+        "context": "Digital wellness and safety in the hyper-connected Indian urban life.",
+        "actions": {
+            "low": [
+                "Classroom digital-wellness lessons",
+                "Set clear 'Off-Device' zones"
+            ],
+            "medium": [
+                "Talk with parents about device-free hours",
+                "Monitor for cyberbullying signs"
+            ],
+            "high": [
+                "Online harassment or harmful content exposure",
+                "Involve cyber-safety officer/Counselor",
+                "Parent-teacher-student joint meeting"
+            ]
+        }
+    },
+    "P-PRE": {
+        "indicators": [
+            "Doing things against their nature to 'fit in'",
+            "Sudden change in friend circle/hobbies",
+            "Participating in risky dares"
+        ],
+        "context": "Managing peer pressure and self-identity.",
+        "actions": {
+            "low": [
+                "Class lessons on assertiveness and 'No'"
+            ],
+            "medium": [
+                "Private talk to explore pressures",
+                "Rehearse refusal responses with student"
+            ],
+            "high": [
+                "Pressure linked to substance/risk",
+                "Immediate counselor referral",
+                "Close monitoring of peer group dynamics"
+            ]
+        }
+    },
+    "E-STR": {
+        "indicators": [
+            "Physical shaking/nausea before tests",
+            "Crying over minor mark loss",
+            "Extreme syllabus overwhelm"
+        ],
+        "context": "Exam-centric stress – the single biggest mental health driver in Indian schools.",
+        "actions": {
+            "low": [
+                "Teach study skills and relaxation techniques",
+                "Provide structured revision plans"
+            ],
+            "medium": [
+                "Coordinate with parents to lower expectations",
+                "Individual check-in during exam weeks"
+            ],
+            "high": [
+                "Panic attacks or school refusal",
+                "Mandatory counselor involvement",
+                "Arrange exam accommodations (e.g. separate room)"
+            ]
+        }
+    },
+    "I-FOR": {
+        "indicators": [
+            "Strong feelings of not belonging",
+            "Confusion about values/identity",
+            "Vulnerability to outside recruitment/groups"
+        ],
+        "context": "The critical transition of identity formation in adolescence.",
+        "actions": {
+            "low": [
+                "Projects exploring individual strengths",
+                "Encourage diverse groups"
+            ],
+            "medium": [
+                "Normalize that identity is evolving",
+                "Listen without judgment to changing views"
+            ],
+            "high": [
+                "Identity confusion plus social rejection",
+                "Coordinate with counselor for careful support"
+            ]
+        }
+    },
+    "C-ANX": {
+        "indicators": [
+            "Extreme pressure about stream selection (10th/11th)",
+            "Feeling stuck in a choice they didn't participate in",
+            "Comparing future paths with neighbors"
+        ],
+        "context": "Managing decision-making pressure regarding future academic streams.",
+        "actions": {
+            "low": [
+                "Provide factual academic pathway info",
+                "Highlight multiple routes to success"
+            ],
+            "medium": [
+                "Refer to career guide/counselor",
+                "Involve parents in realistic, non-pressuring talk"
+            ],
+            "high": [
+                "Significant distress over stream decision",
+                "Urgent meeting with parents and lead support staff"
+            ]
+        }
+    },
+    "B-OUT": {
+        "indicators": [
+            "Emotional numbness",
+            "Total loss of interest in favorite subjects",
+            "Constant illness/exhaustion"
+        ],
+        "context": "Burnout from 'Tuition-School-Coaching' cycle.",
+        "actions": {
+            "low": [
+                "Introduce movement/breaks in class",
+                "Monitor homework volume"
+            ],
+            "medium": [
+                "Help student prioritize/declutter schedule",
+                "Monitor for 2 weeks"
+            ],
+            "high": [
+                "Professional consultation referral",
+                "Temporary reduction in academic demands",
+                "Counselor-led family meeting"
+            ]
+        }
+    },
+    "S-SYM": {
+        "indicators": [
+            "Frequent headaches/stomachaches without medical cause",
+            "Shortness of breath in class",
+            "Rapid heartbeat reported"
+        ],
+        "context": "Somatic expressions of mental distress.",
+        "actions": {
+            "low": [
+                "Check hydration and regular breaks",
+                "Accept occasional complaints with empathy"
+            ],
+            "medium": [
+                "Notice stress patterns",
+                "Suggest medical check-up via parents",
+                "Use grounding/breathing tools"
+            ],
+            "high": [
+                "School refusal tied to symptoms",
+                "Refer to medical professional and counselor immediately"
+            ]
+        }
+    }
+}

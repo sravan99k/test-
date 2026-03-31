@@ -1,0 +1,931 @@
+{
+    "metadata": {
+        "grade": 6,
+        "phase": 1,
+        "assessmentCode": "Mini 1.2",
+        "assessmentName": "The Settling In Check",
+        "purpose": "Re-check domains flagged in M1 and provide baseline for students with no flags",
+        "timing": "August 20 (2-3 weeks after M1)",
+        "estimatedTimeMinutes": 3,
+        "isAdaptive": true,
+        "adaptiveTrigger": "All students, but questions adapt based on M1 flags"
+    },
+    "scenarios": [
+        {
+            "scenarioId": "general_checkin",
+            "scenarioName": "General Settling-In Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_GEN_Q1",
+                    "domain": "Emotional",
+                    "question": "How happy do you feel about coming to school most days?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_GEN_Q2",
+                    "domain": "Social",
+                    "question": "Do you have at least one friend you feel comfortable spending time with at school?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_GEN_Q3",
+                    "domain": "Family",
+                    "question": "At home, do family expectations about your studies feel reasonable for you?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "agreement",
+                        "scale": [
+                            "Strongly Agree",
+                            "Agree",
+                            "Neutral",
+                            "Disagree",
+                            "Strongly Disagree"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_GEN_Q4",
+                    "domain": "Adult Support",
+                    "question": "Is there at least one adult you can talk to when something worries you?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_GEN_Q5",
+                    "domain": "Sleep",
+                    "question": "On most school nights, do you wake up feeling rested?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "academic_anxiety_recheck",
+            "scenarioName": "Academic Anxiety Re-Check",
+            "improvementThreshold": "If Q1 improves by ≥1 point, adjustment improving",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_AA_Q1",
+                    "domain": "Academic",
+                    "question": "How are you feeling about your teachers now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "feeling",
+                        "scale": [
+                            "Very Good",
+                            "Good",
+                            "Okay",
+                            "Bad",
+                            "Very Bad"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_AA_Q2",
+                    "domain": "Academic",
+                    "question": "Do you understand your homework better than in June?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_AA_Q3",
+                    "domain": "Academic",
+                    "question": "Are you raising your hand in class more?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "social_isolation_recheck",
+            "scenarioName": "Social Isolation Re-Check",
+            "improvementThreshold": "If Q2 improves by ≥1 point, social adjustment improving",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_SI_Q1",
+                    "domain": "Social",
+                    "question": "Do you have someone to sit with at lunch now?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_SI_Q2",
+                    "domain": "Social",
+                    "question": "Are you enjoying group activities more?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "feeling",
+                        "scale": [
+                            "Very much",
+                            "Quite a bit",
+                            "Somewhat",
+                            "A little",
+                            "Not at all"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_SI_Q3",
+                    "domain": "Social",
+                    "question": "Have you made at least one new friend?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "mood_concerns_recheck",
+            "scenarioName": "Mood Concerns Re-Check",
+            "improvementThreshold": "If Q1 improves by ≥1 point, mood stabilizing",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_MC_Q1",
+                    "domain": "Mood",
+                    "question": "How have you been feeling coming to school?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "feeling",
+                        "scale": [
+                            "Very Good",
+                            "Good",
+                            "Okay",
+                            "Bad",
+                            "Very Bad"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_MC_Q2",
+                    "domain": "Mood",
+                    "question": "Do you look forward to school most days?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "bullying_recheck",
+            "scenarioName": "Bullying Re-Check",
+            "improvementThreshold": "If Q1 = Yes and Q2 improves, intervention working",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_B_Q1",
+                    "domain": "Bullying",
+                    "question": "Has the bullying stopped or reduced?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Sometimes",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_B_Q2",
+                    "domain": "Bullying",
+                    "question": "Do you feel safer at school now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "feeling",
+                        "scale": [
+                            "Very much",
+                            "Quite a bit",
+                            "Somewhat",
+                            "A little",
+                            "Not at all"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_B_Q3",
+                    "domain": "Bullying",
+                    "question": "Did you or a teacher tell anyone about the bullying?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "general_stress_check",
+            "scenarioName": "General Stress & Worries Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_GS_Q1",
+                    "domain": "General Stress",
+                    "question": "Are you still feeling worried or stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Not at all",
+                            "A little",
+                            "Somewhat",
+                            "Quite a bit",
+                            "Very much"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "strengths_check",
+            "scenarioName": "Strengths & Self-Concept Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_STR_Q1",
+                    "domain": "Strengths",
+                    "question": "Can you name at least one thing you're good at?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Not sure",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            2,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_STR_Q2",
+                    "domain": "Strengths",
+                    "question": "Have you used any of your strengths recently?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "adult_support_followup",
+            "scenarioName": "Adult Support Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_ADU_Q1",
+                    "domain": "Adult Support",
+                    "question": "Is there an adult at school you can talk to when you need help?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_ADU_Q2",
+                    "domain": "Adult Support",
+                    "question": "Do your teachers listen when you have a problem?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "student_voice_followup",
+            "scenarioName": "Student Voice Follow-up",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_STU_Q1",
+                    "domain": "Student Voice",
+                    "question": "Do teachers ask for your opinion in class?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_STU_Q2",
+                    "domain": "Student Voice",
+                    "question": "Can you share your ideas freely at school?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "future_hope_check",
+            "scenarioName": "Future Hope Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_FH_Q1",
+                    "domain": "Future Hope",
+                    "question": "Do you feel hopeful about your future?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_FH_Q2",
+                    "domain": "Future Hope",
+                    "question": "Has your hopefulness gotten better since June?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "adult_trust_check",
+            "scenarioName": "Adult Trust Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_AT_Q1",
+                    "domain": "Adult Trust",
+                    "question": "Do you have at least one adult you trust completely?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_AT_Q2",
+                    "domain": "Adult Trust",
+                    "question": "Has it become easier to talk to adults?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self_regulation_check",
+            "scenarioName": "Self-Regulation Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_SR_Q1",
+                    "domain": "Self-Regulation",
+                    "question": "Can you calm yourself when you feel stressed?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_SR_Q2",
+                    "domain": "Self-Regulation",
+                    "question": "Are you getting better at managing your emotions?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "self_worth_check",
+            "scenarioName": "Self-Worth Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_SW_Q1",
+                    "domain": "Self-Worth",
+                    "question": "Do you feel proud of yourself sometimes?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_SW_Q2",
+                    "domain": "Self-Worth",
+                    "question": "Have you felt better about yourself lately?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "school_engagement_check",
+            "scenarioName": "School Engagement Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_SE_Q1",
+                    "domain": "School Engagement",
+                    "question": "Is there at least one thing you enjoy about school?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_SE_Q2",
+                    "domain": "School Engagement",
+                    "question": "Are you enjoying school more now than in June?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "belonging_check",
+            "scenarioName": "Belonging Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_BEL_Q1",
+                    "domain": "Belonging",
+                    "question": "Do you feel like you belong in your class?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_BEL_Q2",
+                    "domain": "Belonging",
+                    "question": "Do you feel more comfortable in class now?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            2,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "trauma_recheck",
+            "scenarioName": "Trauma & Safety Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_TE_Q1",
+                    "domain": "Safety",
+                    "question": "Do you feel safe and calm at home most of the time now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_TE_Q2",
+                    "domain": "Safety",
+                    "question": "Have you seen adults fighting or arguing at home in the last 2 weeks?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_TE_Q3",
+                    "domain": "Support",
+                    "question": "If you feel scared or worried, is there someone you can talk to right away?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "scenarioId": "neurodevelopmental_recheck",
+            "scenarioName": "Learning Processing Re-Check",
+            "questions": [
+                {
+                    "id": "G6_P1_Mini1.2_ND_Q1",
+                    "domain": "Academic",
+                    "question": "Are you finding it easier to follow teacher's instructions now?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Always",
+                            "Often",
+                            "Sometimes",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_ND_Q2",
+                    "domain": "Academic",
+                    "question": "When you read or write, do you still feel the words or numbers move around?",
+                    "responseType": "likert",
+                    "responseOptions": {
+                        "type": "frequency",
+                        "scale": [
+                            "Never",
+                            "Rarely",
+                            "Sometimes",
+                            "Often",
+                            "Always"
+                        ],
+                        "values": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "id": "G6_P1_Mini1.2_ND_Q3",
+                    "domain": "Academic",
+                    "question": "Are the extra tools or help you're getting making schoolwork easier?",
+                    "responseType": "yesno",
+                    "responseOptions": {
+                        "type": "options",
+                        "options": [
+                            "No help needed",
+                            "No",
+                            "Yes"
+                        ],
+                        "values": [
+                            0,
+                            4,
+                            0
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "actionProtocol": {
+        "improved": "Red/Yellow → Green/Yellow: Continue current support; maintain routine monitoring",
+        "noChange": "Schedule teacher check-in within 1 week; monitor for escalation",
+        "worsened": "Flag for counselor review within 2 weeks; consider family communication"
+    }
+}

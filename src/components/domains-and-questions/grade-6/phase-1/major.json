@@ -1,0 +1,654 @@
+{
+    "metadata": {
+        "grade": 6,
+        "phase": 1,
+        "assessmentCode": "M1",
+        "assessmentName": "The Baseline",
+        "purpose": "Comprehensive screening of the 'New Middle Schooler' to establish baseline for middle-school adjustment",
+        "timing": "June 15",
+        "estimatedTimeMinutes": 12,
+        "totalQuestions": 28,
+        "domainsCovered": [
+            "Academic",
+            "Adult Support",
+            "Bullying",
+            "Digital",
+            "Family",
+            "Mood",
+            "Physical",
+            "Safety",
+            "School Environment",
+            "Social",
+            "Strengths"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G6_P1_M1_Q1",
+            "questionNumber": 1,
+            "section": "Strengths Block",
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q3",
+            "questionNumber": 3,
+            "section": "Academic Domain",
+            "domain": "Academic",
+            "subdomain": "Academic Adjustment",
+            "question": "How easy or difficult is your schoolwork in Grade 6 so far?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "difficulty",
+                "scale": [
+                    "Very Easy",
+                    "Easy",
+                    "Moderate",
+                    "Difficult",
+                    "Very Difficult"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q4",
+            "questionNumber": 4,
+            "section": "Academic Domain",
+            "domain": "Academic",
+            "subdomain": "Academic Anxiety",
+            "question": "I feel scared to ask questions in class because others might laugh.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q5",
+            "questionNumber": 5,
+            "section": "Social and Peer Domain",
+            "domain": "Social",
+            "subdomain": "Peer Connection",
+            "question": "Do you have at least one friend in class you can talk to?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q6",
+            "questionNumber": 6,
+            "section": "Social and Peer Domain",
+            "domain": "Social",
+            "subdomain": "Social Inclusion",
+            "question": "At lunch or during break, I usually have someone to sit or play with.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q7",
+            "questionNumber": 7,
+            "section": "Emotional and Mood Domain",
+            "domain": "Mood",
+            "subdomain": "School Mood",
+            "question": "In the last 2 weeks, how often have you felt happy coming to school?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q8",
+            "questionNumber": 8,
+            "section": "Bullying and Exclusion",
+            "domain": "Bullying",
+            "subdomain": "Bullying Experience",
+            "question": "In the last 2 weeks, has anyone at school made you feel upset, scared or left out on purpose (for example: name-calling, not letting you join, pushing or hitting)?",
+            "responseType": "yesno_detailed",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Yes"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q9",
+            "questionNumber": 9,
+            "section": "Support and Adult",
+            "domain": "Adult Support",
+            "subdomain": "School Support Access",
+            "question": "Is there a teacher or adult at school you feel comfortable talking to if you have a problem?",
+            "responseType": "yes_no_notsure",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "Not sure",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Not sure",
+                "orange": "No"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q10",
+            "questionNumber": 10,
+            "section": "Academic Domain",
+            "domain": "Academic",
+            "subdomain": "Workload",
+            "question": "I sometimes feel I have too much homework.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q11",
+            "questionNumber": 11,
+            "section": "Social and Peer Domain",
+            "domain": "Social",
+            "subdomain": "Identity",
+            "question": "I feel comfortable being myself at school.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q12",
+            "questionNumber": 12,
+            "section": "Emotional and Mood Domain",
+            "domain": "Mood",
+            "subdomain": "Somatic Symptoms",
+            "question": "I feel nervous or get a stomach ache before coming to school.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q13",
+            "questionNumber": 13,
+            "section": "Emotional and Mood Domain",
+            "domain": "Mood",
+            "subdomain": "Emotional Regulation",
+            "question": "I can stay calm when things don't go my way (like when homework is hard or friends disagree).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q14",
+            "questionNumber": 14,
+            "section": "Family Domain",
+            "domain": "Family",
+            "subdomain": "Family Support",
+            "question": "My parents ask me about my day when I get home.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q15",
+            "questionNumber": 15,
+            "section": "Digital Domain",
+            "domain": "Digital",
+            "subdomain": "Digital Usage",
+            "question": "I spend more time on my phone/games than talking to people.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q16",
+            "questionNumber": 16,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Teacher Relationship",
+            "question": "Any of my teachers make me feel scared or nervous.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q17",
+            "questionNumber": 17,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Help Seeking",
+            "question": "Do you feel comfortable asking your teacher for help when you need it?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q18",
+            "questionNumber": 18,
+            "section": "Academic Domain",
+            "domain": "Academic",
+            "subdomain": "Executive Function",
+            "question": "I keep my books, papers, and materials organized and neat.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q19",
+            "questionNumber": 19,
+            "section": "Academic Domain",
+            "domain": "Academic",
+            "subdomain": "Learning Difficulties",
+            "question": "When I read, the words sometimes seem to move around on the page.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q20",
+            "questionNumber": 20,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Sensory",
+            "question": "The classroom gets too noisy and busy, and I feel overwhelmed.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q21",
+            "questionNumber": 21,
+            "section": "School Environment",
+            "domain": "School Environment",
+            "subdomain": "Teaching Pace",
+            "question": "The pace of teaching in my new classes feels just right for me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q22",
+            "questionNumber": 22,
+            "section": "Home Environment",
+            "domain": "Safety",
+            "subdomain": "Trauma",
+            "question": "I have seen people fighting or arguing in my home or neighborhood.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "red": "Yes"
+            }
+        },
+        {
+            "id": "G6_P1_M1_Q23",
+            "questionNumber": 23,
+            "section": "Physical Health",
+            "domain": "Physical",
+            "subdomain": "Disability Interaction",
+            "question": "I have a physical condition that makes some school activities difficult for me.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Yes"
+            }
+        }
+    ]
+}

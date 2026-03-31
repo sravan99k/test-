@@ -1,0 +1,1070 @@
+{
+    "metadata": {
+        "grade": 8,
+        "phase": 1,
+        "assessmentCode": "M1",
+        "assessmentName": "The Baseline",
+        "purpose": "Screen for high-risk behaviors, academic readiness, identity formation, and hidden learning gaps",
+        "timing": "June 15",
+        "estimatedTimeMinutes": 20,
+        "totalQuestions": 42,
+        "domainsCovered": [
+            "Academic",
+            "Auditory Processing",
+            "Body Image",
+            "Bullying",
+            "Emotional",
+            "Family",
+            "Girls Health",
+            "Identity",
+            "Learning Disability",
+            "Memory Processing",
+            "Online Safety",
+            "Open",
+            "Physical Disability",
+            "Physical Health",
+            "Resilience",
+            "School Safety",
+            "Social",
+            "Social Media Risk",
+            "Strengths",
+            "Substance Detail",
+            "Support",
+            "Tech/Lifestyle",
+            "Tech/Social Media",
+            "Trauma",
+            "Working Memory"
+        ]
+    },
+    "questions": [
+        {
+            "id": "G8_P1_M1_Q1",
+            "questionNumber": 1,
+            "section": "Strengths Block",
+            "domain": "Strengths",
+            "subdomain": "Self-Concept",
+            "question": "I have at least one strength or talent I feel good about.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Always",
+                    "Often",
+                    "Sometimes",
+                    "Rarely",
+                    "Never"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q3",
+            "questionNumber": 3,
+            "section": "Academic Transition",
+            "domain": "Academic",
+            "subdomain": "Difficulty Transition",
+            "question": "How difficult does the Grade 8 schoolwork feel compared to last year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "difficulty",
+                "scale": [
+                    "Much easier",
+                    "Easier",
+                    "About the same",
+                    "Harder",
+                    "Much harder"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q4",
+            "questionNumber": 4,
+            "section": "Academic Transition",
+            "domain": "Academic",
+            "subdomain": "Academic Confidence",
+            "question": "How confident do you feel about keeping up with your subjects this year?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "confidence",
+                "scale": [
+                    "Very confident",
+                    "Confident",
+                    "Somewhat confident",
+                    "A little confident",
+                    "Not at all confident"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q5",
+            "questionNumber": 5,
+            "section": "Social and Belonging",
+            "domain": "Social",
+            "subdomain": "Inclusion",
+            "question": "How included do you feel in your class?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "inclusion",
+                "scale": [
+                    "Very included",
+                    "Included",
+                    "Somewhat included",
+                    "A little included",
+                    "Not at all included"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q6",
+            "questionNumber": 6,
+            "section": "Social and Belonging",
+            "domain": "Social",
+            "subdomain": "Peer Connection",
+            "question": "Do you have at least one close friend you can share personal things with?",
+            "responseType": "yes_no_notsure",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "Not sure",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q7",
+            "questionNumber": 7,
+            "section": "Mood",
+            "domain": "Emotional",
+            "subdomain": "Depression Screening",
+            "question": "In the last 2 weeks, how often have you felt sad, empty, or hopeless without a clear reason?",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency_all",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "flagConditions": {
+                "yellow": ">=3",
+                "orange": ">=4"
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q8",
+            "questionNumber": 8,
+            "section": "Bullying",
+            "domain": "Bullying",
+            "subdomain": "Cyberbullying",
+            "question": "In the last month, has anyone at school or online (chats/social media) made you feel bullied, insulted, or left out on purpose?",
+            "responseType": "yesno_detailed",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "No",
+                    "Yes"
+                ]
+            },
+            "flagConditions": {
+                "yellow": "Yes",
+                "counselorReview": true
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q9",
+            "questionNumber": 9,
+            "section": "Adult Support",
+            "domain": "Support",
+            "subdomain": "School Support Access",
+            "question": "Is there an adult at school you feel you can talk to if something is bothering you?",
+            "responseType": "yes_no_notsure",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "Not sure",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    2,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q12",
+            "questionNumber": 12,
+            "section": "Academic Pressure",
+            "domain": "Academic",
+            "question": "I feel pressured because everyone says Grade 8 is the base for boards and High School success.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q13",
+            "questionNumber": 13,
+            "section": "Peer Risk",
+            "domain": "Social",
+            "question": "I would do something risky if my friends dared me to.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q14",
+            "questionNumber": 14,
+            "section": "Identity",
+            "domain": "Identity",
+            "question": "I feel like I have different personalities for different people (home, school, friends).",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q15",
+            "questionNumber": 15,
+            "section": "Digital Use",
+            "domain": "Tech/Social Media",
+            "question": "I check my likes, views, and comments obsessively on social media.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q16",
+            "questionNumber": 16,
+            "section": "Emotional Lability",
+            "domain": "Emotional",
+            "question": "My mood changes very quickly from happy to angry or upset about something small.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q17",
+            "questionNumber": 17,
+            "section": "Family Understanding",
+            "domain": "Family",
+            "question": "I feel like my parents don't understand the real me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q18",
+            "questionNumber": 18,
+            "section": "Tech & Sleep",
+            "domain": "Tech/Lifestyle",
+            "question": "I have stayed up all night gaming or using my phone.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q19",
+            "questionNumber": 19,
+            "section": "Attention",
+            "domain": "Academic",
+            "question": "I struggle to concentrate in class for more than 10 minutes.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q20",
+            "questionNumber": 20,
+            "section": "Body Image",
+            "domain": "Body Image",
+            "question": "I have tried to change my diet or appearance to look like someone else.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q21",
+            "questionNumber": 21,
+            "section": "Group Dynamics",
+            "domain": "Social",
+            "question": "My friend group leaves people out or makes others feel unwanted.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q22",
+            "questionNumber": 22,
+            "section": "Boundaries",
+            "domain": "Social",
+            "question": "Friends pressure me to share personal things I don't want to share.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q23",
+            "questionNumber": 23,
+            "section": "Online Content",
+            "domain": "Tech/Social Media",
+            "question": "I have come across online content that made me feel uncomfortable or confused.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q24",
+            "questionNumber": 24,
+            "section": "School Safety",
+            "domain": "School Safety",
+            "question": "I feel safe with older students and seniors in school.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q25",
+            "questionNumber": 25,
+            "section": "Academic Honesty",
+            "domain": "Academic",
+            "question": "Friends pressure me to help them cheat or share answers.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q26",
+            "questionNumber": 26,
+            "section": "Goals",
+            "domain": "Academic",
+            "question": "I have clear goals for what I want to achieve academically this year.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q27",
+            "questionNumber": 27,
+            "section": "Study Habits",
+            "domain": "Academic",
+            "question": "I consistently use the same study techniques that work well for me.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q28",
+            "questionNumber": 28,
+            "section": "Physical Fatigue",
+            "domain": "Physical Health",
+            "question": "I feel tired most of the time, even after sleeping.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q29",
+            "questionNumber": 29,
+            "section": "Learning Difficulties",
+            "domain": "Learning Disability",
+            "question": "When I read, the words sometimes seem to move or blur on the page.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q30",
+            "questionNumber": 30,
+            "section": "Learning Difficulties",
+            "domain": "Learning Disability",
+            "question": "My hand gets tired very quickly when I have to write a lot.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q31",
+            "questionNumber": 31,
+            "section": "Substance Access",
+            "domain": "Substance Detail",
+            "question": "I know where to get cigarettes, alcohol, or other substances if I wanted to.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q32",
+            "questionNumber": 32,
+            "section": "Online Safety",
+            "domain": "Online Safety",
+            "question": "I know how to report and block users who make me feel uncomfortable online.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q33",
+            "questionNumber": 33,
+            "section": "Menstrual Health",
+            "domain": "Girls Health",
+            "question": "I experience significant discomfort or mood changes related to my menstrual cycle.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q34",
+            "questionNumber": 34,
+            "section": "Social Media Risk",
+            "domain": "Social Media Risk",
+            "question": "Someone has asked me to send inappropriate photos or engage in sexual conversations online.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q35",
+            "questionNumber": 35,
+            "section": "Memory & Processing",
+            "domain": "Memory Processing",
+            "question": "I process information slowly and need extra time to understand complex concepts.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q36",
+            "questionNumber": 36,
+            "section": "Memory & Processing",
+            "domain": "Auditory Processing",
+            "question": "I have trouble following multi-step verbal instructions or explanations.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q37",
+            "questionNumber": 37,
+            "section": "Working Memory",
+            "domain": "Working Memory",
+            "question": "I can only hold a few pieces of information in my mind at one time.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q38",
+            "questionNumber": 38,
+            "section": "Trauma Exposure",
+            "domain": "Trauma",
+            "question": "I have witnessed violence, fighting, or dangerous situations in my home or neighborhood.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "frequency",
+                "scale": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Always"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q39",
+            "questionNumber": 39,
+            "section": "Emotional Neglect",
+            "domain": "Emotional",
+            "question": "I feel like my emotional needs are not noticed or taken seriously by adults.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q40",
+            "questionNumber": 40,
+            "section": "Physical Disability",
+            "domain": "Physical Disability",
+            "question": "My physical condition limits my participation in certain school or social activities.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Disagree",
+                    "Disagree",
+                    "Neutral",
+                    "Agree",
+                    "Strongly Agree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q41",
+            "questionNumber": 41,
+            "section": "Role Models",
+            "domain": "Resilience",
+            "question": "I have a role model I look up to and can learn from.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q43",
+            "questionNumber": 43,
+            "section": "Substance Risk",
+            "domain": "Substance Detail",
+            "question": "I have clear goals for staying away from cigarettes, alcohol, or other substances.",
+            "responseType": "likert",
+            "responseOptions": {
+                "type": "agreement",
+                "scale": [
+                    "Strongly Agree",
+                    "Agree",
+                    "Neutral",
+                    "Disagree",
+                    "Strongly Disagree"
+                ],
+                "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q44",
+            "questionNumber": 44,
+            "section": "Study Environment",
+            "domain": "Academic",
+            "subdomain": "Environment",
+            "question": "I have a quiet place to study at home.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            }
+        },
+        {
+            "id": "G8_P1_M1_Q45",
+            "questionNumber": 45,
+            "section": "Resilience",
+            "domain": "Resilience",
+            "subdomain": "Protective Factors",
+            "question": "I have a hobby or activity that makes me happy.",
+            "responseType": "yesno",
+            "responseOptions": {
+                "type": "yesno",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "values": [
+                    0,
+                    4
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "domain": "Social & Emotional Learning",
+        "code": "S-SEL",
+        "recommendations": {
+            "low": "Monitor for minor social withdrawal.",
+            "medium": "Incorporate group activities and social coaching.",
+            "high": "Immediate counselor intervention for social skill building."
+        }
+    },
+    {
+        "domain": "Academic Confidence",
+        "code": "A-CON",
+        "recommendations": {
+            "low": "Encourage participation in class.",
+            "medium": "Provide additional academic support and tutoring.",
+            "high": "Assessment of learning difficulties and specialized support."
+        }
+    },
+    {
+        "domain": "Peer Relationships",
+        "code": "P-REL",
+        "recommendations": {
+            "low": "Observe peer interactions during breaks.",
+            "medium": "Mediate recent peer conflicts and build empathy.",
+            "high": "Anti-bullying protocol and intensive social support."
+        }
+    },
+    {
+        "domain": "Adult Support",
+        "code": "A-SUP",
+        "recommendations": {
+            "low": "Brief check-ins by class teacher.",
+            "medium": "Mentorship program with a trusted staff member.",
+            "high": "Family counseling and intensive adult mentorship."
+        }
+    },
+    {
+        "domain": "Mood Regulation",
+        "code": "M-EMO",
+        "recommendations": {
+            "low": "Daily mood tracking and awareness.",
+            "medium": "Skill building for emotional regulation.",
+            "high": "Clinical evaluation for mood disorders."
+        }
+    },
+    {
+        "domain": "Behavioral Safety",
+        "code": "B-SAF",
+        "recommendations": {
+            "low": "Regular behavioral monitoring.",
+            "medium": "Individual behavior plan implementation.",
+            "high": "Immediate risk assessment and safety plan."
+        }
+    },
+    {
+        "domain": "Home Safety",
+        "code": "H-SAF",
+        "recommendations": {
+            "low": "Teacher awareness of home environment.",
+            "medium": "Parent-teacher meeting to discuss home support.",
+            "high": "Social services consultation and child protection review."
+        }
+    },
+    {
+        "domain": "Self-Harm Risk",
+        "code": "S-HAR",
+        "recommendations": {
+            "low": "General awareness and mental health education.",
+            "medium": "Increased monitoring and pastoral care check-ins.",
+            "high": "CRITICAL: Immediate referral to emergency mental health services."
+        }
+    },
+    {
+        "domain": "Emotional Wellbeing",
+        "code": "E-EMO",
+        "recommendations": {
+            "low": "General encouragement and positive reinforcement.",
+            "medium": "Routine check-ins to monitor emotional state.",
+            "high": "In-depth clinical assessment and therapeutic support."
+        }
+    }
+]
